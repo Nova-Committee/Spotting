@@ -1,0 +1,12 @@
+modLoader = "javafml"
+loaderVersion = "[36,)"
+license = "GNU-AGPL-3.0-only"
+[[mods]]
+modId = "spotting"
+version = "${file.jarVersion}"
+displayName = "Spotting"
+authors = [
+    "Tapio",
+    "MUYU_Twilighter"
+]
+description = ""
