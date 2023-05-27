@@ -10,3 +10,9 @@ authors = [
     "MUYU_Twilighter"
 ]
 description = ""
+credits = '''
+
+Amazon Polly for builtin voices:
+Male voice -> Matthew (AI)
+Female voice -> Salli (AI)
+'''
