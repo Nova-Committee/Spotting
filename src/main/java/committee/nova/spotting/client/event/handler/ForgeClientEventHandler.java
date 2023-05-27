@@ -25,6 +25,6 @@ public class ForgeClientEventHandler {
         final SpottingEvent.TracingRange range = new SpottingEvent.TracingRange(player);
         MinecraftForge.EVENT_BUS.post(range);
         RaytraceUtil.getEntityInCrosshair(mc.getRenderPartialTicks(), range.getTracingRange())
-                .ifPresent(l -> NetworkHandler.INSTANCE.sendToServer(new SpottingRequestMsg(player.getEntityId(), l.getEntityId(), ClientConfig.VOICE_GENDER.get().isMale())));
+                .ifPresent(l -> NetworkHandler.INSTANCE.sendToServer(new SpottingRequestMsg(player.getEntityId(), l.getEntityId(), ClientConfig.VOICE_TYPE.get())));
     }
 }

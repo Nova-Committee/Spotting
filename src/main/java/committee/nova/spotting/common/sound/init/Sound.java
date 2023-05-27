@@ -9,6 +9,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 
+import javax.annotation.Nullable;
 import java.util.HashMap;
 import java.util.Locale;
 
@@ -101,8 +102,16 @@ public enum Sound {
         return sounds.get(femaleName()).get();
     }
 
-    public SoundEvent get(boolean male) {
-        return male ? maleSound() : femaleSound();
+    @Nullable
+    public SoundEvent get(VoiceType gender) {
+        switch (gender) {
+            case MALE:
+                return maleSound();
+            case FEMALE:
+                return femaleSound();
+            default:
+                return null;
+        }
     }
 
     private static final DeferredRegister<SoundEvent> SOUNDS = DeferredRegister.create(ForgeRegistries.SOUND_EVENTS, Spotting.MODID);
@@ -114,6 +123,12 @@ public enum Sound {
 
     public String femaleName() {
         return this.name().toLowerCase(Locale.ENGLISH) + "_f";
+    }
+
+    public enum VoiceType {
+        MALE,
+        FEMALE,
+        NONE;
     }
 
     public static void init() {

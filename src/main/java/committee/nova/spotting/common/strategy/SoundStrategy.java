@@ -8,9 +8,9 @@ import java.util.function.BiFunction;
 
 public class SoundStrategy {
     private final int priority;
-    private final BiFunction<Entity, Boolean, SoundEvent> fun;
+    private final BiFunction<Entity, Sound.VoiceType, SoundEvent> fun;
 
-    public SoundStrategy(int priority, BiFunction<Entity, Boolean, SoundEvent> fun) {
+    public SoundStrategy(int priority, BiFunction<Entity, Sound.VoiceType, SoundEvent> fun) {
         this.priority = priority;
         this.fun = fun;
     }
@@ -19,7 +19,7 @@ public class SoundStrategy {
         this(0, (e, m) -> s.get(m));
     }
 
-    public BiFunction<Entity, Boolean, SoundEvent> getFun() {
+    public BiFunction<Entity, Sound.VoiceType, SoundEvent> getFun() {
         return fun;
     }
 

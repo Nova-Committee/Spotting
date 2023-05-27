@@ -4,6 +4,7 @@ import committee.nova.spotting.Spotting;
 import committee.nova.spotting.common.capabilities.SpottingCapability;
 import committee.nova.spotting.common.event.impl.SpottingEvent;
 import committee.nova.spotting.common.manager.SpottingManager;
+import committee.nova.spotting.common.sound.init.Sound;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.server.MinecraftServer;
@@ -19,7 +20,7 @@ import javax.annotation.Nullable;
 import java.util.concurrent.atomic.AtomicReference;
 
 public class SpottingUtil {
-    public static void trySpot(PlayerEntity player, @Nullable Entity spottee, boolean male) {
+    public static void trySpot(PlayerEntity player, @Nullable Entity spottee, Sound.VoiceType male) {
         if (spottee == null) return;
         final SpottingEvent.TracingRange range = new SpottingEvent.TracingRange(player);
         MinecraftForge.EVENT_BUS.post(range);

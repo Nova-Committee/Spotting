@@ -2,6 +2,7 @@ package committee.nova.spotting.common.manager;
 
 import com.google.common.collect.LinkedListMultimap;
 import com.google.common.collect.Multimap;
+import committee.nova.spotting.common.sound.init.Sound;
 import committee.nova.spotting.common.strategy.SoundStrategy;
 import net.minecraft.entity.Entity;
 import net.minecraft.util.SoundEvent;
@@ -23,7 +24,7 @@ public class SpottingManager {
 
     @Nullable
     @SuppressWarnings("unchecked")
-    public static SoundEvent getSoundForSpotted(Entity spotted, boolean male) {
+    public static SoundEvent getSoundForSpotted(Entity spotted, Sound.VoiceType male) {
         final Class<? extends Entity> entityClass = spotted.getClass();
         int priority = Integer.MIN_VALUE;
         SoundEvent sound = null;
