@@ -1,6 +1,8 @@
 package committee.nova.spotting.common.util;
 
+import committee.nova.spotting.Spotting;
 import committee.nova.spotting.common.capabilities.SpottingCapability;
+import committee.nova.spotting.common.event.impl.SpottingEvent;
 import committee.nova.spotting.common.manager.SpottingManager;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.PlayerEntity;
@@ -11,27 +13,43 @@ import net.minecraft.util.SoundEvent;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.text.*;
 import net.minecraft.util.text.event.HoverEvent;
+import net.minecraftforge.common.MinecraftForge;
 
 import javax.annotation.Nullable;
 import java.util.concurrent.atomic.AtomicReference;
 
 public class SpottingUtil {
-    public static void trySpot(PlayerEntity player, @Nullable Entity e, boolean male) {
-        if (e == null) return;
+    public static void trySpot(PlayerEntity player, @Nullable Entity spottee, boolean male) {
+        if (spottee == null) return;
+        final SpottingEvent.TracingRange range = new SpottingEvent.TracingRange(player);
+        MinecraftForge.EVENT_BUS.post(range);
+        final double tracingRange = range.getTracingRange();
+        final double realRange = spottee.getPositionVec().distanceTo(player.getEyePosition(1.0F));
+        if (tracingRange < realRange) {
+            Spotting.LOGGER.warn("{} was sending a spotting request packet with a suspicious tracing range {}. " +
+                            "While the maximum tracing range for the player was {}",
+                    player.getDisplayName().getString(), realRange, tracingRange);
+            Spotting.LOGGER.warn("If the real tracing range reported is much greater than the maximum tracing range. " +
+                    "You can reasonably suspect that this player is using some cheat mod.");
+            return;
+        }
         final AtomicReference<ITextComponent> traced = new AtomicReference<>(null);
         final AtomicReference<BlockPos> hit = new AtomicReference<>(null);
-        e.getCapability(SpottingCapability.SPOTTABLE).ifPresent(s -> {
-            s.setHighlightRemainTime(300);
+        spottee.getCapability(SpottingCapability.SPOTTABLE).ifPresent(s -> {
+            final SpottingEvent.Pre pre = new SpottingEvent.Pre(player, spottee);
+            if (MinecraftForge.EVENT_BUS.post(pre)) return;
+            s.setHighlightRemainTime(pre.getHighlightTime());
             player.swing(Hand.MAIN_HAND, true);
-            player.getCapability(SpottingCapability.SPOTTER).ifPresent(p -> p.setSpottingCd(30));
-            final SoundEvent sound = SpottingManager.getSoundForSpotted(e, male);
+            player.getCapability(SpottingCapability.SPOTTER).ifPresent(p -> p.setSpottingCd(pre.getSpottingCd()));
+            final SoundEvent sound = SpottingManager.getSoundForSpotted(spottee, male);
             if (sound != null)
                 player.world.playSound(null, player.getPosX(), player.getPosY(), player.getPosZ(), sound, SoundCategory.PLAYERS, 1.0F, 1.0F);
-            traced.set(new StringTextComponent(e.getName().getString()).setStyle(Style.EMPTY).modifyStyle(y -> y.setHoverEvent(new HoverEvent(HoverEvent.Action.SHOW_ENTITY,
-                    new HoverEvent.EntityHover(e.getType(), e.getUniqueID(), e.getName())))));
-            hit.set(e.getPosition());
+            traced.set(new StringTextComponent(spottee.getName().getString()).setStyle(Style.EMPTY).modifyStyle(y -> y.setHoverEvent(new HoverEvent(HoverEvent.Action.SHOW_ENTITY,
+                    new HoverEvent.EntityHover(spottee.getType(), spottee.getUniqueID(), spottee.getName())))));
+            hit.set(spottee.getPosition());
         });
         if (traced.get() != null) {
+            MinecraftForge.EVENT_BUS.post(new SpottingEvent.Post(player, spottee));
             final MinecraftServer server = player.getServer();
             if (server == null) return;
             server.getPlayerList().func_232641_a_(getSpottingMsg(player.getDisplayName(), traced.get(), hit.get()), ChatType.CHAT, player.getUniqueID());

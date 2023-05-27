@@ -9,7 +9,7 @@ public class ClientConfig {
     static {
         final ForgeConfigSpec.Builder builder = new ForgeConfigSpec.Builder();
         builder.comment("Spotting Voice Settings").push("voice");
-        VOICE_GENDER = builder.defineEnum("voice_gender", VoiceGender.MALE);
+        VOICE_GENDER = builder.comment("The gender of the voice, ONLY about the voice to be played when spotted.").defineEnum("voice_gender", VoiceGender.MALE);
         builder.pop();
         CONFIG = builder.build();
     }

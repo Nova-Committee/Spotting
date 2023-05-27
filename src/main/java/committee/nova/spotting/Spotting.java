@@ -14,7 +14,7 @@ import org.apache.logging.log4j.Logger;
 @Mod(Spotting.MODID)
 public class Spotting {
     public static final String MODID = "spotting";
-    private static final Logger LOGGER = LogManager.getLogger();
+    public static final Logger LOGGER = LogManager.getLogger();
 
     public Spotting() {
         NetworkHandler.registerMessage();
