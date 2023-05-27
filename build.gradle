@@ -4,11 +4,11 @@ plugins {
 }
 
 
-group = 'committee.nova'
+group = 'committee.nova.spotting.forge'
 version = '1.0.0'
 
 java {
-    archivesBaseName = 'spotting'
+    archivesBaseName = 'Spotting-Forge-1.16.5'
     toolchain.languageVersion = JavaLanguageVersion.of(8)
 }
 

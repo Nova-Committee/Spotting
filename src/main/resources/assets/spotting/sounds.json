@@ -42,7 +42,7 @@
   "cat_m": {
     "sounds": [
       {
-        "name": "spotting:male/blaze",
+        "name": "spotting:male/cat",
         "stream": true
       }
     ]
@@ -79,6 +79,14 @@
       }
     ]
   },
+  "cod_m": {
+    "sounds": [
+      {
+        "name": "spotting:male/cod",
+        "stream": true
+      }
+    ]
+  },
   "cow_m": {
     "sounds": [
       {
@@ -99,6 +107,14 @@
     "sounds": [
       {
         "name": "spotting:male/dolphin",
+        "stream": true
+      }
+    ]
+  },
+  "donkey_m": {
+    "sounds": [
+      {
+        "name": "spotting:male/donkey",
         "stream": true
       }
     ]
@@ -155,6 +171,14 @@
     "sounds": [
       {
         "name": "spotting:male/fish",
+        "stream": true
+      }
+    ]
+  },
+  "fox_m": {
+    "sounds": [
+      {
+        "name": "spotting:male/fox",
         "stream": true
       }
     ]
@@ -263,6 +287,14 @@
       }
     ]
   },
+  "mule_m": {
+    "sounds": [
+      {
+        "name": "spotting:male/mule",
+        "stream": true
+      }
+    ]
+  },
   "ocelot_m": {
     "sounds": [
       {
@@ -343,10 +375,10 @@
       }
     ]
   },
-  "puffer_fish_m": {
+  "pufferfish_m": {
     "sounds": [
       {
-        "name": "spotting:male/puffer_fish",
+        "name": "spotting:male/pufferfish",
         "stream": true
       }
     ]
@@ -363,6 +395,14 @@
     "sounds": [
       {
         "name": "spotting:male/ravager",
+        "stream": true
+      }
+    ]
+  },
+  "salmon_m": {
+    "sounds": [
+      {
+        "name": "spotting:male/salmon",
         "stream": true
       }
     ]
@@ -395,6 +435,14 @@
     "sounds": [
       {
         "name": "spotting:male/skeleton",
+        "stream": true
+      }
+    ]
+  },
+  "skeleton_horse_m": {
+    "sounds": [
+      {
+        "name": "spotting:male/skeleton_horse",
         "stream": true
       }
     ]
@@ -451,6 +499,14 @@
     "sounds": [
       {
         "name": "spotting:male/tadpole",
+        "stream": true
+      }
+    ]
+  },
+  "tropical_fish_m": {
+    "sounds": [
+      {
+        "name": "spotting:male/tropical_fish",
         "stream": true
       }
     ]
@@ -551,10 +607,26 @@
       }
     ]
   },
+  "zombie_horse_m": {
+    "sounds": [
+      {
+        "name": "spotting:male/zombie_horse",
+        "stream": true
+      }
+    ]
+  },
   "zombie_villager_m": {
     "sounds": [
       {
         "name": "spotting:male/zombie_villager",
+        "stream": true
+      }
+    ]
+  },
+  "zombified_piglin_m": {
+    "sounds": [
+      {
+        "name": "spotting:male/zombified_piglin",
         "stream": true
       }
     ]
@@ -602,7 +674,7 @@
   "cat_f": {
     "sounds": [
       {
-        "name": "spotting:female/blaze",
+        "name": "spotting:female/cat",
         "stream": true
       }
     ]
@@ -639,6 +711,14 @@
       }
     ]
   },
+  "cod_f": {
+    "sounds": [
+      {
+        "name": "spotting:female/cod",
+        "stream": true
+      }
+    ]
+  },
   "cow_f": {
     "sounds": [
       {
@@ -659,6 +739,14 @@
     "sounds": [
       {
         "name": "spotting:female/dolphin",
+        "stream": true
+      }
+    ]
+  },
+  "donkey_f": {
+    "sounds": [
+      {
+        "name": "spotting:female/donkey",
         "stream": true
       }
     ]
@@ -715,6 +803,14 @@
     "sounds": [
       {
         "name": "spotting:female/fish",
+        "stream": true
+      }
+    ]
+  },
+  "fox_f": {
+    "sounds": [
+      {
+        "name": "spotting:female/fox",
         "stream": true
       }
     ]
@@ -823,6 +919,14 @@
       }
     ]
   },
+  "mule_f": {
+    "sounds": [
+      {
+        "name": "spotting:female/mule",
+        "stream": true
+      }
+    ]
+  },
   "ocelot_f": {
     "sounds": [
       {
@@ -903,10 +1007,10 @@
       }
     ]
   },
-  "puffer_fish_f": {
+  "pufferfish_f": {
     "sounds": [
       {
-        "name": "spotting:female/puffer_fish",
+        "name": "spotting:female/pufferfish",
         "stream": true
       }
     ]
@@ -923,6 +1027,14 @@
     "sounds": [
       {
         "name": "spotting:female/ravager",
+        "stream": true
+      }
+    ]
+  },
+  "salmon_f": {
+    "sounds": [
+      {
+        "name": "spotting:female/salmon",
         "stream": true
       }
     ]
@@ -955,6 +1067,14 @@
     "sounds": [
       {
         "name": "spotting:female/skeleton",
+        "stream": true
+      }
+    ]
+  },
+  "skeleton_horse_f": {
+    "sounds": [
+      {
+        "name": "spotting:female/skeleton_horse",
         "stream": true
       }
     ]
@@ -1011,6 +1131,14 @@
     "sounds": [
       {
         "name": "spotting:female/tadpole",
+        "stream": true
+      }
+    ]
+  },
+  "tropical_fish_f": {
+    "sounds": [
+      {
+        "name": "spotting:female/tropical_fish",
         "stream": true
       }
     ]
@@ -1111,10 +1239,26 @@
       }
     ]
   },
+  "zombie_horse_f": {
+    "sounds": [
+      {
+        "name": "spotting:female/zombie_horse",
+        "stream": true
+      }
+    ]
+  },
   "zombie_villager_f": {
     "sounds": [
       {
         "name": "spotting:female/zombie_villager",
+        "stream": true
+      }
+    ]
+  },
+  "zombified_piglin_f": {
+    "sounds": [
+      {
+        "name": "spotting:female/zombified_piglin",
         "stream": true
       }
     ]

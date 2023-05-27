@@ -1,6 +1,6 @@
 package committee.nova.spotting.common.strategy;
 
-import committee.nova.spotting.common.sound.init.SoundIndex;
+import committee.nova.spotting.common.sound.init.Sound;
 import net.minecraft.entity.Entity;
 import net.minecraft.util.SoundEvent;
 
@@ -15,8 +15,8 @@ public class SoundStrategy {
         this.fun = fun;
     }
 
-    public SoundStrategy(SoundIndex s) {
-        this(0, (e, m) -> s.get(m).getSoundEvent());
+    public SoundStrategy(Sound s) {
+        this(0, (e, m) -> s.get(m));
     }
 
     public BiFunction<Entity, Boolean, SoundEvent> getFun() {
