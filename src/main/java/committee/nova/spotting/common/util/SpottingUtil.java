@@ -16,7 +16,7 @@ import javax.annotation.Nullable;
 import java.util.concurrent.atomic.AtomicReference;
 
 public class SpottingUtil {
-    public static void trySpot(PlayerEntity player, @Nullable Entity e) {
+    public static void trySpot(PlayerEntity player, @Nullable Entity e, boolean male) {
         if (e == null) return;
         final AtomicReference<ITextComponent> traced = new AtomicReference<>(null);
         final AtomicReference<BlockPos> hit = new AtomicReference<>(null);
@@ -24,7 +24,7 @@ public class SpottingUtil {
             s.setHighlightRemainTime(300);
             player.swing(Hand.MAIN_HAND, true);
             player.getCapability(SpottingCapability.SPOTTER).ifPresent(p -> p.setSpottingCd(30));
-            final SoundEvent sound = SpottingManager.getSoundForSpotted(e);
+            final SoundEvent sound = SpottingManager.getSoundForSpotted(e, male);
             if (sound != null)
                 player.world.playSound(null, player.getPosX(), player.getPosY(), player.getPosZ(), sound, SoundCategory.PLAYERS, 1.0F, 1.0F);
             traced.set(new StringTextComponent(e.getName().getString()).setStyle(Style.EMPTY).modifyStyle(y -> y.setHoverEvent(new HoverEvent(HoverEvent.Action.SHOW_ENTITY,

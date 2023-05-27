@@ -558,5 +558,565 @@
         "stream": true
       }
     ]
+  },
+  "allay_f": {
+    "sounds": [
+      {
+        "name": "spotting:female/allay",
+        "stream": true
+      }
+    ]
+  },
+  "axolotl_f": {
+    "sounds": [
+      {
+        "name": "spotting:female/axolotl",
+        "stream": true
+      }
+    ]
+  },
+  "bat_f": {
+    "sounds": [
+      {
+        "name": "spotting:female/bat",
+        "stream": true
+      }
+    ]
+  },
+  "bee_f": {
+    "sounds": [
+      {
+        "name": "spotting:female/bee",
+        "stream": true
+      }
+    ]
+  },
+  "blaze_f": {
+    "sounds": [
+      {
+        "name": "spotting:female/blaze",
+        "stream": true
+      }
+    ]
+  },
+  "cat_f": {
+    "sounds": [
+      {
+        "name": "spotting:female/blaze",
+        "stream": true
+      }
+    ]
+  },
+  "cave_spider_f": {
+    "sounds": [
+      {
+        "name": "spotting:female/cave_spider",
+        "stream": true
+      }
+    ]
+  },
+  "charged_creeper_f": {
+    "sounds": [
+      {
+        "name": "spotting:female/charged_creeper",
+        "stream": true
+      }
+    ]
+  },
+  "chicken_f": {
+    "sounds": [
+      {
+        "name": "spotting:female/chicken",
+        "stream": true
+      }
+    ]
+  },
+  "chicken_jockey_f": {
+    "sounds": [
+      {
+        "name": "spotting:female/chicken_jockey",
+        "stream": true
+      }
+    ]
+  },
+  "cow_f": {
+    "sounds": [
+      {
+        "name": "spotting:female/cow",
+        "stream": true
+      }
+    ]
+  },
+  "creeper_f": {
+    "sounds": [
+      {
+        "name": "spotting:female/creeper",
+        "stream": true
+      }
+    ]
+  },
+  "dolphin_f": {
+    "sounds": [
+      {
+        "name": "spotting:female/dolphin",
+        "stream": true
+      }
+    ]
+  },
+  "drowned_f": {
+    "sounds": [
+      {
+        "name": "spotting:female/drowned",
+        "stream": true
+      }
+    ]
+  },
+  "elder_guardian_f": {
+    "sounds": [
+      {
+        "name": "spotting:female/elder_guardian",
+        "stream": true
+      }
+    ]
+  },
+  "ender_dragon_f": {
+    "sounds": [
+      {
+        "name": "spotting:female/ender_dragon",
+        "stream": true
+      }
+    ]
+  },
+  "enderman_f": {
+    "sounds": [
+      {
+        "name": "spotting:female/enderman",
+        "stream": true
+      }
+    ]
+  },
+  "endermite_f": {
+    "sounds": [
+      {
+        "name": "spotting:female/endermite",
+        "stream": true
+      }
+    ]
+  },
+  "evoker_f": {
+    "sounds": [
+      {
+        "name": "spotting:female/evoker",
+        "stream": true
+      }
+    ]
+  },
+  "fish_f": {
+    "sounds": [
+      {
+        "name": "spotting:female/fish",
+        "stream": true
+      }
+    ]
+  },
+  "frog_f": {
+    "sounds": [
+      {
+        "name": "spotting:female/frog",
+        "stream": true
+      }
+    ]
+  },
+  "ghast_f": {
+    "sounds": [
+      {
+        "name": "spotting:female/ghast",
+        "stream": true
+      }
+    ]
+  },
+  "giant_f": {
+    "sounds": [
+      {
+        "name": "spotting:female/giant",
+        "stream": true
+      }
+    ]
+  },
+  "goat_f": {
+    "sounds": [
+      {
+        "name": "spotting:female/goat",
+        "stream": true
+      }
+    ]
+  },
+  "guardian_f": {
+    "sounds": [
+      {
+        "name": "spotting:female/guardian",
+        "stream": true
+      }
+    ]
+  },
+  "hoglin_f": {
+    "sounds": [
+      {
+        "name": "spotting:female/hoglin",
+        "stream": true
+      }
+    ]
+  },
+  "horse_f": {
+    "sounds": [
+      {
+        "name": "spotting:female/horse",
+        "stream": true
+      }
+    ]
+  },
+  "husk_f": {
+    "sounds": [
+      {
+        "name": "spotting:female/husk",
+        "stream": true
+      }
+    ]
+  },
+  "illusioner_f": {
+    "sounds": [
+      {
+        "name": "spotting:female/illusioner",
+        "stream": true
+      }
+    ]
+  },
+  "iron_golem_f": {
+    "sounds": [
+      {
+        "name": "spotting:female/iron_golem",
+        "stream": true
+      }
+    ]
+  },
+  "llama_f": {
+    "sounds": [
+      {
+        "name": "spotting:female/llama",
+        "stream": true
+      }
+    ]
+  },
+  "magma_cube_f": {
+    "sounds": [
+      {
+        "name": "spotting:female/magma_cube",
+        "stream": true
+      }
+    ]
+  },
+  "mooshroom_f": {
+    "sounds": [
+      {
+        "name": "spotting:female/mooshroom",
+        "stream": true
+      }
+    ]
+  },
+  "ocelot_f": {
+    "sounds": [
+      {
+        "name": "spotting:female/ocelot",
+        "stream": true
+      }
+    ]
+  },
+  "panda_f": {
+    "sounds": [
+      {
+        "name": "spotting:female/panda",
+        "stream": true
+      }
+    ]
+  },
+  "parrot_f": {
+    "sounds": [
+      {
+        "name": "spotting:female/parrot",
+        "stream": true
+      }
+    ]
+  },
+  "phantom_f": {
+    "sounds": [
+      {
+        "name": "spotting:female/phantom",
+        "stream": true
+      }
+    ]
+  },
+  "pig_f": {
+    "sounds": [
+      {
+        "name": "spotting:female/pig",
+        "stream": true
+      }
+    ]
+  },
+  "piglin_f": {
+    "sounds": [
+      {
+        "name": "spotting:female/piglin",
+        "stream": true
+      }
+    ]
+  },
+  "piglin_brute_f": {
+    "sounds": [
+      {
+        "name": "spotting:female/piglin_brute",
+        "stream": true
+      }
+    ]
+  },
+  "pillager_f": {
+    "sounds": [
+      {
+        "name": "spotting:female/pillager",
+        "stream": true
+      }
+    ]
+  },
+  "player_f": {
+    "sounds": [
+      {
+        "name": "spotting:female/player",
+        "stream": true
+      }
+    ]
+  },
+  "polar_bear_f": {
+    "sounds": [
+      {
+        "name": "spotting:female/polar_bear",
+        "stream": true
+      }
+    ]
+  },
+  "puffer_fish_f": {
+    "sounds": [
+      {
+        "name": "spotting:female/puffer_fish",
+        "stream": true
+      }
+    ]
+  },
+  "rabbit_f": {
+    "sounds": [
+      {
+        "name": "spotting:female/rabbit",
+        "stream": true
+      }
+    ]
+  },
+  "ravager_f": {
+    "sounds": [
+      {
+        "name": "spotting:female/ravager",
+        "stream": true
+      }
+    ]
+  },
+  "sheep_f": {
+    "sounds": [
+      {
+        "name": "spotting:female/sheep",
+        "stream": true
+      }
+    ]
+  },
+  "shulker_f": {
+    "sounds": [
+      {
+        "name": "spotting:female/shulker",
+        "stream": true
+      }
+    ]
+  },
+  "silverfish_f": {
+    "sounds": [
+      {
+        "name": "spotting:female/silverfish",
+        "stream": true
+      }
+    ]
+  },
+  "skeleton_f": {
+    "sounds": [
+      {
+        "name": "spotting:female/skeleton",
+        "stream": true
+      }
+    ]
+  },
+  "slime_f": {
+    "sounds": [
+      {
+        "name": "spotting:female/slime",
+        "stream": true
+      }
+    ]
+  },
+  "snow_golem_f": {
+    "sounds": [
+      {
+        "name": "spotting:female/snow_golem",
+        "stream": true
+      }
+    ]
+  },
+  "spider_f": {
+    "sounds": [
+      {
+        "name": "spotting:female/spider",
+        "stream": true
+      }
+    ]
+  },
+  "squid_f": {
+    "sounds": [
+      {
+        "name": "spotting:female/squid",
+        "stream": true
+      }
+    ]
+  },
+  "stray_f": {
+    "sounds": [
+      {
+        "name": "spotting:female/stray",
+        "stream": true
+      }
+    ]
+  },
+  "strider_f": {
+    "sounds": [
+      {
+        "name": "spotting:female/strider",
+        "stream": true
+      }
+    ]
+  },
+  "tadpole_f": {
+    "sounds": [
+      {
+        "name": "spotting:female/tadpole",
+        "stream": true
+      }
+    ]
+  },
+  "turtle_f": {
+    "sounds": [
+      {
+        "name": "spotting:female/turtle",
+        "stream": true
+      }
+    ]
+  },
+  "vex_f": {
+    "sounds": [
+      {
+        "name": "spotting:female/vex",
+        "stream": true
+      }
+    ]
+  },
+  "villager_f": {
+    "sounds": [
+      {
+        "name": "spotting:female/villager",
+        "stream": true
+      }
+    ]
+  },
+  "vindicator_f": {
+    "sounds": [
+      {
+        "name": "spotting:female/vindicator",
+        "stream": true
+      }
+    ]
+  },
+  "wandering_trader_f": {
+    "sounds": [
+      {
+        "name": "spotting:female/wandering_trader",
+        "stream": true
+      }
+    ]
+  },
+  "warden_f": {
+    "sounds": [
+      {
+        "name": "spotting:female/warden",
+        "stream": true
+      }
+    ]
+  },
+  "witch_f": {
+    "sounds": [
+      {
+        "name": "spotting:female/witch",
+        "stream": true
+      }
+    ]
+  },
+  "wither_f": {
+    "sounds": [
+      {
+        "name": "spotting:female/wither",
+        "stream": true
+      }
+    ]
+  },
+  "wither_skeleton_f": {
+    "sounds": [
+      {
+        "name": "spotting:female/wither_skeleton",
+        "stream": true
+      }
+    ]
+  },
+  "wolf_f": {
+    "sounds": [
+      {
+        "name": "spotting:female/wolf",
+        "stream": true
+      }
+    ]
+  },
+  "zoglin_f": {
+    "sounds": [
+      {
+        "name": "spotting:female/zoglin",
+        "stream": true
+      }
+    ]
+  },
+  "zombie_f": {
+    "sounds": [
+      {
+        "name": "spotting:female/zombie",
+        "stream": true
+      }
+    ]
+  },
+  "zombie_villager_f": {
+    "sounds": [
+      {
+        "name": "spotting:female/zombie_villager",
+        "stream": true
+      }
+    ]
   }
 }

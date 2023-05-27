@@ -13,20 +13,24 @@ import java.util.function.Supplier;
 public class SpottingRequestMsg {
     private final int id;
     private final int target;
+    private final boolean male;
 
     public SpottingRequestMsg(PacketBuffer buffer) {
         id = buffer.readInt();
         target = buffer.readInt();
+        male = buffer.readBoolean();
     }
 
-    public SpottingRequestMsg(int id, int target) {
+    public SpottingRequestMsg(int id, int target, boolean male) {
         this.id = id;
         this.target = target;
+        this.male = male;
     }
 
     public void toBytes(PacketBuffer buffer) {
         buffer.writeInt(id);
         buffer.writeInt(target);
+        buffer.writeBoolean(male);
     }
 
     public void handler(Supplier<NetworkEvent.Context> ctxSupplier) {
@@ -37,7 +41,7 @@ public class SpottingRequestMsg {
             final World world = player.world;
             if (!Objects.equals(world.getEntityByID(id), player)) return;
             player.getCapability(SpottingCapability.SPOTTER).ifPresent(s -> {
-                if (s.canSpot()) SpottingUtil.trySpot(player, world.getEntityByID(target));
+                if (s.canSpot()) SpottingUtil.trySpot(player, world.getEntityByID(target), male);
             });
         });
         ctx.setPacketHandled(true);

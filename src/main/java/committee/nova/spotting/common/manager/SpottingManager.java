@@ -23,13 +23,13 @@ public class SpottingManager {
 
     @Nullable
     @SuppressWarnings("unchecked")
-    public static SoundEvent getSoundForSpotted(Entity spotted) {
+    public static SoundEvent getSoundForSpotted(Entity spotted, boolean male) {
         final Class<? extends Entity> entityClass = spotted.getClass();
         int priority = Integer.MIN_VALUE;
         SoundEvent sound = null;
         for (SoundStrategy y : strategies.get(entityClass)) {
             if (y.getPriority() <= priority) continue;
-            final SoundEvent s1 = y.getFun().apply(spotted);
+            final SoundEvent s1 = y.getFun().apply(spotted, male);
             if (s1 == null) continue;
             priority = y.getPriority();
             sound = s1;
@@ -41,14 +41,12 @@ public class SpottingManager {
             tempClass = (Class<? extends Entity>) superClz;
             for (SoundStrategy y : strategies.get(tempClass)) {
                 if (y.getPriority() <= priority) continue;
-                final SoundEvent s1 = y.getFun().apply(spotted);
+                final SoundEvent s1 = y.getFun().apply(spotted, male);
                 if (s1 == null) continue;
                 priority = y.getPriority();
                 sound = s1;
             }
         }
-        System.out.println(sound);
-        System.out.println(sound.getName());
         return sound;
     }
 
