@@ -13,6 +13,6 @@ description = ""
 credits = '''
 
 Amazon Polly for builtin voices:
-Male voice -> Matthew (AI)
-Female voice -> Salli (AI)
+CV(English, Male) -> Matthew (AI)
+CV(English, Female) -> Salli (AI)
 '''
