@@ -15,7 +15,7 @@ public class CommonConfig {
     public static final ForgeConfigSpec.DoubleValue defaultTracingRange;
     public static final ForgeConfigSpec.IntValue defaultSpottingCoolDown;
     public static final ForgeConfigSpec.IntValue defaultGlowingTime;
-    public static final ForgeConfigSpec.IntValue internalVer;
+    private static final ForgeConfigSpec.IntValue internalVer;
 
     static {
         final ForgeConfigSpec.Builder builder = new ForgeConfigSpec.Builder();
