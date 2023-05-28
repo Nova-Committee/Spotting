@@ -1,7 +1,11 @@
 {
   "category.spotting": "索敌",
   "msg.spotting.spotted": "%1$s%2$s！",
+  "msg.spotting.spotted.f": "%1$s%2$s！",
+  "msg.spotting.spotted.m": "%1$s%2$s！",
   "msg.spotting.there": "那里有",
+  "msg.spotting.there.f": "那里有",
+  "msg.spotting.there.m": "那里有",
   "key.spotting.spotting": "索敌",
   "screen.spotting.cfg.option.none": "无声",
   "screen.spotting.cfg.option.female": "女声",

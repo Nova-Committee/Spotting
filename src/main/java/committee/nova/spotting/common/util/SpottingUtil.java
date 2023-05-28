@@ -4,6 +4,8 @@ import committee.nova.spotting.Spotting;
 import committee.nova.spotting.common.capabilities.SpottingCapability;
 import committee.nova.spotting.common.event.impl.SpottingEvent;
 import committee.nova.spotting.common.manager.SpottingManager;
+import committee.nova.spotting.common.network.init.NetworkHandler;
+import committee.nova.spotting.common.network.msg.CapabilitySyncMsg;
 import committee.nova.spotting.common.sound.init.Sound;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.PlayerEntity;
@@ -15,12 +17,13 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.text.*;
 import net.minecraft.util.text.event.HoverEvent;
 import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.fml.network.PacketDistributor;
 
 import javax.annotation.Nullable;
 import java.util.concurrent.atomic.AtomicReference;
 
 public class SpottingUtil {
-    public static void trySpot(PlayerEntity player, @Nullable Entity spottee, Sound.VoiceType male) {
+    public static void trySpot(PlayerEntity player, @Nullable Entity spottee, Sound.VoiceType voiceType) {
         if (spottee == null) return;
         final SpottingEvent.TracingRange range = new SpottingEvent.TracingRange(player);
         MinecraftForge.EVENT_BUS.post(range);
@@ -42,27 +45,37 @@ public class SpottingUtil {
             s.setHighlightRemainTime(pre.getHighlightTime());
             player.swing(Hand.MAIN_HAND, true);
             player.getCapability(SpottingCapability.SPOTTER).ifPresent(p -> p.setSpottingCd(pre.getSpottingCd()));
-            final SoundEvent sound = SpottingManager.getSoundForSpotted(spottee, male);
+            final SoundEvent sound = SpottingManager.getSoundForSpotted(spottee, voiceType);
             if (sound != null)
                 player.world.playSound(null, player.getPosX(), player.getPosY(), player.getPosZ(), sound, SoundCategory.PLAYERS, 1.0F, 1.0F);
             traced.set(new StringTextComponent(spottee.getName().getString()).setStyle(Style.EMPTY).modifyStyle(y -> y.setHoverEvent(new HoverEvent(HoverEvent.Action.SHOW_ENTITY,
                     new HoverEvent.EntityHover(spottee.getType(), spottee.getUniqueID(), spottee.getName())))));
             hit.set(spottee.getPosition());
+            MinecraftForge.EVENT_BUS.post(new SpottingEvent.Post(player, spottee));
+            syncSpottingStatus(spottee);
         });
         if (traced.get() != null) {
-            MinecraftForge.EVENT_BUS.post(new SpottingEvent.Post(player, spottee));
             final MinecraftServer server = player.getServer();
             if (server == null) return;
-            server.getPlayerList().func_232641_a_(getSpottingMsg(player.getDisplayName(), traced.get(), hit.get()), ChatType.CHAT, player.getUniqueID());
+            server.getPlayerList().func_232641_a_(getSpottingMsg(player.getDisplayName(), traced.get(), hit.get(), voiceType.getLocaleSuffix()), ChatType.CHAT, player.getUniqueID());
         }
     }
 
-    public static TextComponent getSpottingMsg(ITextComponent player, ITextComponent traced, @Nullable BlockPos hit) {
-        return new TranslationTextComponent("chat.type.text", player, new TranslationTextComponent("msg.spotting.spotted", new TranslationTextComponent("msg.spotting.there")
-                .setStyle(Style.EMPTY.setFormatting(TextFormatting.YELLOW))
-                .modifyStyle(s -> {
-                    if (hit == null) return s;
-                    return s.setHoverEvent(new HoverEvent(HoverEvent.Action.SHOW_TEXT, new StringTextComponent("[" + hit.getCoordinatesAsString() + "]")));
-                }), traced));
+    public static TextComponent getSpottingMsg(ITextComponent player, ITextComponent traced, @Nullable BlockPos hit, String suffix) {
+        return new TranslationTextComponent("chat.type.text", player, new TranslationTextComponent("msg.spotting.spotted" + suffix,
+                new TranslationTextComponent("msg.spotting.there" + suffix)
+                        .setStyle(Style.EMPTY.setFormatting(TextFormatting.YELLOW))
+                        .modifyStyle(s -> {
+                            if (hit == null) return s;
+                            return s.setHoverEvent(new HoverEvent(HoverEvent.Action.SHOW_TEXT, new StringTextComponent("[" + hit.getCoordinatesAsString() + "]")));
+                        }), traced));
+    }
+
+    public static void syncSpottingStatus(Entity e) {
+        final int[] datas = new int[2];
+        e.getCapability(SpottingCapability.SPOTTABLE).ifPresent(s -> datas[0] = s.tick());
+        if ((e instanceof PlayerEntity))
+            e.getCapability(SpottingCapability.SPOTTER).ifPresent(s -> datas[1] = s.tick());
+        NetworkHandler.INSTANCE.send(PacketDistributor.DIMENSION.with(() -> e.world.getDimensionKey()), new CapabilitySyncMsg(e.getEntityId(), datas[0], datas[1]));
     }
 }

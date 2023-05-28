@@ -1,7 +1,11 @@
 {
   "category.spotting": "Spotting",
   "msg.spotting.spotted": "%2$s %1$s",
+  "msg.spotting.spotted.f": "%2$s %1$s",
+  "msg.spotting.spotted.m": "%2$s %1$s",
   "msg.spotting.there": "over there!",
+  "msg.spotting.there.f": "over there!",
+  "msg.spotting.there.m": "over there!",
   "key.spotting.spotting": "Spot",
   "screen.spotting.cfg.option.none": "No Voice",
   "screen.spotting.cfg.option.female": "Female Voice",

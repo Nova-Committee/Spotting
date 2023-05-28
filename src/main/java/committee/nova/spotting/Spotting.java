@@ -20,6 +20,7 @@ import org.apache.logging.log4j.Logger;
 public class Spotting {
     public static final String MODID = "spotting";
     public static final Logger LOGGER = LogManager.getLogger();
+    public static final int internalVersion = 1;
 
     public Spotting() {
         NetworkHandler.registerMessage();

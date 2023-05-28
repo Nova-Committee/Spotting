@@ -129,6 +129,17 @@ public enum Sound {
         MALE,
         FEMALE,
         NONE;
+
+        public String getLocaleSuffix() {
+            switch (this) {
+                case MALE:
+                    return ".m";
+                case FEMALE:
+                    return ".f";
+                default:
+                    return "";
+            }
+        }
     }
 
     public static void init() {

@@ -41,6 +41,10 @@ public class SpottingCapability {
             return getSpottingCd() == 0;
         }
 
+        default void clearCd() {
+            setSpottingCd(0);
+        }
+
         int tick();
     }
 
