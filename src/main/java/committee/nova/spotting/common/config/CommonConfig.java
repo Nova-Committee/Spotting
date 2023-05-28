@@ -42,7 +42,7 @@ public class CommonConfig {
         defaultGlowingTime.set(15);
         internalVer.set(Spotting.internalVersion);
         CONFIG.save();
-        final ITextComponent msg = new TranslationTextComponent("msg.spotting.cfg_refreshed");
+        final ITextComponent msg = new TranslationTextComponent("msg.spotting.cfg.refreshed");
         server.getPlayerList().func_232641_a_(msg, ChatType.SYSTEM, Util.DUMMY_UUID);
         server.sendMessage(msg, Util.DUMMY_UUID);
     }
