@@ -2,7 +2,7 @@ package committee.nova.spotting.client.config.screen;
 
 import com.mojang.blaze3d.matrix.MatrixStack;
 import committee.nova.spotting.client.config.ClientConfig;
-import committee.nova.spotting.common.sound.init.Sound;
+import committee.nova.spotting.common.voice.VoiceManager;
 import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.client.gui.widget.button.Button;
 import net.minecraft.client.gui.widget.list.OptionsRowList;
@@ -10,7 +10,6 @@ import net.minecraft.client.settings.IteratableOption;
 import net.minecraft.util.text.TranslationTextComponent;
 
 import javax.annotation.ParametersAreNonnullByDefault;
-import java.util.Locale;
 
 @ParametersAreNonnullByDefault
 public class ClientConfigScreen extends Screen {
@@ -59,11 +58,9 @@ public class ClientConfigScreen extends Screen {
         ));
         optionsRowList.addOption(new IteratableOption(
                 "screen.spotting.cfg.options.voice_type",
-                (settings, index) -> ClientConfig.VOICE_TYPE.set(Sound.VoiceType.values()[
-                        (ClientConfig.VOICE_TYPE.get().ordinal() + index) % Sound.VoiceType.values().length]),
+                (settings, index) -> ClientConfig.VOICE_TYPE.set((VoiceManager.getVoiceTypes().get((VoiceManager.getIndex(ClientConfig.getVoiceType()) + index) % VoiceManager.getVoiceTypes().size())).getVoiceId().toString()),
                 (settings, option) -> new TranslationTextComponent("screen.spotting.cfg.selection.voice_type",
-                        new TranslationTextComponent("screen.spotting.cfg.option." +
-                                ClientConfig.VOICE_TYPE.get().name().toLowerCase(Locale.ENGLISH)))
+                        new TranslationTextComponent(ClientConfig.getVoiceType().getOptionName()))
         ));
     }
 

@@ -1,6 +1,7 @@
 package committee.nova.spotting.common.strategy;
 
 import committee.nova.spotting.common.sound.init.Sound;
+import committee.nova.spotting.common.voice.api.IVoiceType;
 import net.minecraft.entity.Entity;
 import net.minecraft.util.SoundEvent;
 
@@ -8,9 +9,9 @@ import java.util.function.BiFunction;
 
 public class SoundStrategy {
     private final int priority;
-    private final BiFunction<Entity, Sound.VoiceType, SoundEvent> fun;
+    private final BiFunction<Entity, IVoiceType, SoundEvent> fun;
 
-    public SoundStrategy(int priority, BiFunction<Entity, Sound.VoiceType, SoundEvent> fun) {
+    public SoundStrategy(int priority, BiFunction<Entity, IVoiceType, SoundEvent> fun) {
         this.priority = priority;
         this.fun = fun;
     }
@@ -19,7 +20,7 @@ public class SoundStrategy {
         this(0, (e, m) -> s.get(m));
     }
 
-    public BiFunction<Entity, Sound.VoiceType, SoundEvent> getFun() {
+    public BiFunction<Entity, IVoiceType, SoundEvent> getFun() {
         return fun;
     }
 

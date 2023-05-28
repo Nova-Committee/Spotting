@@ -9,8 +9,8 @@
   "msg.spotting.there.m": "那里有",
   "key.spotting.spotting": "索敌",
   "screen.spotting.cfg.option.none": "无声",
-  "screen.spotting.cfg.option.female": "女声",
-  "screen.spotting.cfg.option.male": "男声",
+  "screen.spotting.cfg.option.female": "女声（内置）",
+  "screen.spotting.cfg.option.male": "男声（内置）",
   "screen.spotting.cfg.selection.voice_type": "语音类型：%s",
   "screen.spotting.cfg.title": "索敌 设置"
 }

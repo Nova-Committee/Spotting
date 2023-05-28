@@ -9,8 +9,8 @@
   "msg.spotting.there.m": "over there!",
   "key.spotting.spotting": "Spot",
   "screen.spotting.cfg.option.none": "No Voice",
-  "screen.spotting.cfg.option.female": "Female Voice",
-  "screen.spotting.cfg.option.male": "Male Voice",
+  "screen.spotting.cfg.option.female": "Female Voice (Integrated)",
+  "screen.spotting.cfg.option.male": "Male Voice (Integrated)",
   "screen.spotting.cfg.selection.voice_type": "Voice Type: %s",
   "screen.spotting.cfg.title": "Spotting Settings"
 }

@@ -9,8 +9,8 @@
   "msg.spotting.there.m": "Attention!",
   "key.spotting.spotting": "Repérez",
   "screen.spotting.cfg.option.none": "Pas de voix",
-  "screen.spotting.cfg.option.female": "Voix féminine",
-  "screen.spotting.cfg.option.male": "Voix masculine",
+  "screen.spotting.cfg.option.female": "Voix féminine (Intégré)",
+  "screen.spotting.cfg.option.male": "Voix masculine (Intégré)",
   "screen.spotting.cfg.selection.voice_type": "Type de voix: %s",
   "screen.spotting.cfg.title": "Repérage Settings"
 }

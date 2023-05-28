@@ -9,8 +9,8 @@
   "msg.spotting.there.m": "Hier!",
   "key.spotting.spotting": "Spot",
   "screen.spotting.cfg.option.none": "Stumm",
-  "screen.spotting.cfg.option.female": "Weibliche Stimme",
-  "screen.spotting.cfg.option.male": "Männliche Stimme",
+  "screen.spotting.cfg.option.female": "Weibliche Stimme (Integriert)",
+  "screen.spotting.cfg.option.male": "Männliche Stimme (Integriert)",
   "screen.spotting.cfg.selection.voice_type": "Stimme Typ: %s",
   "screen.spotting.cfg.title": "Spotting Einstellungen"
 }

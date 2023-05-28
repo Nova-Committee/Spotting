@@ -6,7 +6,7 @@ import committee.nova.spotting.common.event.impl.SpottingEvent;
 import committee.nova.spotting.common.manager.SpottingManager;
 import committee.nova.spotting.common.network.init.NetworkHandler;
 import committee.nova.spotting.common.network.msg.CapabilitySyncMsg;
-import committee.nova.spotting.common.sound.init.Sound;
+import committee.nova.spotting.common.voice.api.IVoiceType;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.server.MinecraftServer;
@@ -23,7 +23,7 @@ import javax.annotation.Nullable;
 import java.util.concurrent.atomic.AtomicReference;
 
 public class SpottingUtil {
-    public static void trySpot(PlayerEntity player, @Nullable Entity spottee, Sound.VoiceType voiceType) {
+    public static void trySpot(PlayerEntity player, @Nullable Entity spottee, IVoiceType voiceType) {
         if (spottee == null) return;
         final SpottingEvent.TracingRange range = new SpottingEvent.TracingRange(player);
         MinecraftForge.EVENT_BUS.post(range);
@@ -57,13 +57,14 @@ public class SpottingUtil {
         if (traced.get() != null) {
             final MinecraftServer server = player.getServer();
             if (server == null) return;
-            server.getPlayerList().func_232641_a_(getSpottingMsg(player.getDisplayName(), traced.get(), hit.get(), voiceType.getLocaleSuffix()), ChatType.CHAT, player.getUniqueID());
+            server.getPlayerList().func_232641_a_(getSpottingMsg(player.getDisplayName(), traced.get(), hit.get(),
+                    voiceType.get$Spotted$MessageKey(), voiceType.get$There$MessageKey()), ChatType.CHAT, player.getUniqueID());
         }
     }
 
-    public static TextComponent getSpottingMsg(ITextComponent player, ITextComponent traced, @Nullable BlockPos hit, String suffix) {
-        return new TranslationTextComponent("chat.type.text", player, new TranslationTextComponent("msg.spotting.spotted" + suffix,
-                new TranslationTextComponent("msg.spotting.there" + suffix)
+    public static TextComponent getSpottingMsg(ITextComponent player, ITextComponent traced, @Nullable BlockPos hit, String spottedKey, String thereKey) {
+        return new TranslationTextComponent("chat.type.text", player, new TranslationTextComponent(spottedKey,
+                new TranslationTextComponent(thereKey)
                         .setStyle(Style.EMPTY.setFormatting(TextFormatting.YELLOW))
                         .modifyStyle(s -> {
                             if (hit == null) return s;

@@ -1,6 +1,8 @@
 package committee.nova.spotting.common.sound.init;
 
 import committee.nova.spotting.Spotting;
+import committee.nova.spotting.common.voice.BuiltInVoiceType;
+import committee.nova.spotting.common.voice.api.IVoiceType;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.SoundEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -94,60 +96,30 @@ public enum Sound {
     ZOMBIE_VILLAGER,
     ZOMBIFIED_PIGLIN;
 
-    public SoundEvent maleSound() {
-        return sounds.get(maleName()).get();
-    }
-
-    public SoundEvent femaleSound() {
-        return sounds.get(femaleName()).get();
+    public String getSoundBaseName() {
+        return this.name().toLowerCase(Locale.ENGLISH);
     }
 
     @Nullable
-    public SoundEvent get(VoiceType gender) {
-        switch (gender) {
-            case MALE:
-                return maleSound();
-            case FEMALE:
-                return femaleSound();
-            default:
-                return null;
-        }
+    public SoundEvent get(IVoiceType type) {
+        return type.getSoundEvent(this.getSoundBaseName());
     }
 
     private static final DeferredRegister<SoundEvent> SOUNDS = DeferredRegister.create(ForgeRegistries.SOUND_EVENTS, Spotting.MODID);
     private static final HashMap<String, RegistryObject<SoundEvent>> sounds = new HashMap<>();
 
-    public String maleName() {
-        return this.name().toLowerCase(Locale.ENGLISH) + "_m";
-    }
-
-    public String femaleName() {
-        return this.name().toLowerCase(Locale.ENGLISH) + "_f";
-    }
-
-    public enum VoiceType {
-        MALE,
-        FEMALE,
-        NONE;
-
-        public String getLocaleSuffix() {
-            switch (this) {
-                case MALE:
-                    return ".m";
-                case FEMALE:
-                    return ".f";
-                default:
-                    return "";
-            }
-        }
+    public static SoundEvent getSoundEvent(String id) {
+        return sounds.get(id).get();
     }
 
     public static void init() {
         final IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
         final Sound[] indexes = Sound.values();
         for (final Sound s : indexes) {
-            sounds.put(s.maleName(), SOUNDS.register(s.maleName(), () -> new SoundEvent(new ResourceLocation(Spotting.MODID, s.maleName()))));
-            sounds.put(s.femaleName(), SOUNDS.register(s.femaleName(), () -> new SoundEvent(new ResourceLocation(Spotting.MODID, s.femaleName()))));
+            final String m = BuiltInVoiceType.MALE.getSuffixedSoundEventName(s.getSoundBaseName());
+            sounds.put(m, SOUNDS.register(m, () -> new SoundEvent(new ResourceLocation(Spotting.MODID, m))));
+            final String f = BuiltInVoiceType.FEMALE.getSuffixedSoundEventName(s.getSoundBaseName());
+            sounds.put(f, SOUNDS.register(f, () -> new SoundEvent(new ResourceLocation(Spotting.MODID, f))));
         }
         SOUNDS.register(bus);
     }

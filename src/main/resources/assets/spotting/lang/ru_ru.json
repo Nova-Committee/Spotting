@@ -9,8 +9,8 @@
   "msg.spotting.there.m": "Там!",
   "key.spotting.spotting": "Обнаружить",
   "screen.spotting.cfg.option.none": "Без звука",
-  "screen.spotting.cfg.option.female": "Женский голос",
-  "screen.spotting.cfg.option.male": "Мужской голос",
+  "screen.spotting.cfg.option.female": "Женский голос (Встроенный)",
+  "screen.spotting.cfg.option.male": "Мужской голос (Встроенный)",
   "screen.spotting.cfg.selection.voice_type": "Тип голоса: %s",
   "screen.spotting.cfg.title": "Обнаружение Настройки"
 }

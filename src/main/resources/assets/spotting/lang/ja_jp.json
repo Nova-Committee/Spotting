@@ -9,8 +9,8 @@
   "msg.spotting.there.m": "発見！",
   "key.spotting.spotting": "発見する",
   "screen.spotting.cfg.option.none": "無音",
-  "screen.spotting.cfg.option.female": "女性の声",
-  "screen.spotting.cfg.option.male": "男性の声",
+  "screen.spotting.cfg.option.female": "女性の声（内蔵）",
+  "screen.spotting.cfg.option.male": "男性の声（内蔵）",
   "screen.spotting.cfg.selection.voice_type": "音声タイプ：%s",
   "screen.spotting.cfg.title": "発見する 設定"
 }
