@@ -44,6 +44,5 @@ public class CommonConfig {
         CONFIG.save();
         final ITextComponent msg = new TranslationTextComponent("msg.spotting.cfg.refreshed");
         server.getPlayerList().func_232641_a_(msg, ChatType.SYSTEM, Util.DUMMY_UUID);
-        server.sendMessage(msg, Util.DUMMY_UUID);
     }
 }
