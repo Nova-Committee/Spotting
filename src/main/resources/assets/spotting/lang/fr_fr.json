@@ -1,0 +1,16 @@
+{
+  "category.spotting": "Repérage",
+  "msg.spotting.cfg.refreshed": "[Repérage]La version enregistrée en interne ne correspond pas à la version actuelle et le fichier de configuration a été renouvelé. Cela se produit généralement lorsque vous installez le mod pour la première fois ou que vous venez de le mettre à jour.cally happens when you first install or have just updated this mod.",
+  "msg.spotting.spotted": "%1$s %2$s!",
+  "msg.spotting.spotted.f": "%1$s %2$s!",
+  "msg.spotting.spotted.m": "%1$s %2$s!",
+  "msg.spotting.there": "Attention!",
+  "msg.spotting.there.f": "Attention!",
+  "msg.spotting.there.m": "Attention!",
+  "key.spotting.spotting": "Repérez",
+  "screen.spotting.cfg.option.none": "Pas de voix",
+  "screen.spotting.cfg.option.female": "Voix féminine",
+  "screen.spotting.cfg.option.male": "Voix masculine",
+  "screen.spotting.cfg.selection.voice_type": "Type de voix: %s",
+  "screen.spotting.cfg.title": "Repérage Settings"
+}

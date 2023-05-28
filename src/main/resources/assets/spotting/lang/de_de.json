@@ -1,0 +1,16 @@
+{
+  "category.spotting": "Spotting",
+  "msg.spotting.cfg.refreshed": "[Spotting]Die intern gespeicherte Version stimmt nicht mit der aktuellen Version überein und die Konfigurationsdatei wurde erneuert. Dies geschieht in der Regel, wenn Sie die Mod zum ersten Mal installieren oder gerade aktualisiert haben.",
+  "msg.spotting.spotted": "%1$s %2$s!",
+  "msg.spotting.spotted.f": "%1$s %2$s!",
+  "msg.spotting.spotted.m": "%1$s %2$s!",
+  "msg.spotting.there": "Hier!",
+  "msg.spotting.there.f": "Hier!",
+  "msg.spotting.there.m": "Hier!",
+  "key.spotting.spotting": "Spot",
+  "screen.spotting.cfg.option.none": "Stumm",
+  "screen.spotting.cfg.option.female": "Weibliche Stimme",
+  "screen.spotting.cfg.option.male": "Männliche Stimme",
+  "screen.spotting.cfg.selection.voice_type": "Stimme Typ: %s",
+  "screen.spotting.cfg.title": "Spotting Einstellungen"
+}
