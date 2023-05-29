@@ -1,10 +1,9 @@
 package committee.nova.spotting.common.network.msg;
 
-import committee.nova.spotting.common.capabilities.SpottingCapability;
-import net.minecraft.client.Minecraft;
-import net.minecraft.entity.Entity;
+import committee.nova.spotting.client.util.ClientPacketUtil;
 import net.minecraft.network.PacketBuffer;
-import net.minecraft.world.World;
+import net.minecraftforge.api.distmarker.Dist;
+import net.minecraftforge.fml.DistExecutor;
 import net.minecraftforge.fml.network.NetworkEvent;
 
 import java.util.function.Supplier;
@@ -34,14 +33,7 @@ public class CapabilitySyncMsg {
 
     public void handler(Supplier<NetworkEvent.Context> ctxSupplier) {
         final NetworkEvent.Context ctx = ctxSupplier.get();
-        ctx.enqueueWork(() -> {
-            final World world = Minecraft.getInstance().world;
-            if (world == null) return;
-            final Entity e = world.getEntityByID(id);
-            if (e == null) return;
-            e.getCapability(SpottingCapability.SPOTTABLE).ifPresent(s -> s.setHighlightRemainTime(highlight));
-            e.getCapability(SpottingCapability.SPOTTER).ifPresent(s -> s.setSpottingCd(cd));
-        });
+        ctx.enqueueWork(() -> DistExecutor.unsafeRunWhenOn(Dist.CLIENT, () -> ClientPacketUtil.handleCapabilitySyncMsg(id, highlight, cd)));
         ctx.setPacketHandled(true);
     }
 }
