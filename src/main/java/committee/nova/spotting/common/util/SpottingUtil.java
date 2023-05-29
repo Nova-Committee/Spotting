@@ -57,8 +57,10 @@ public class SpottingUtil {
         if (traced.get() != null) {
             final MinecraftServer server = player.getServer();
             if (server == null) return;
-            server.getPlayerList().broadcastMessage(getSpottingMsg(player.getDisplayName(), traced.get(), hit.get(),
-                    voiceType.get$Spotted$MessageKey(), voiceType.get$There$MessageKey()), ChatType.CHAT, player.getUUID());
+            server.getPlayerList().getPlayers().stream()
+                    .filter(p -> p.level.dimension().equals(player.level.dimension()))
+                    .forEach(p -> p.sendMessage(getSpottingMsg(player.getDisplayName(), traced.get(), hit.get(),
+                            voiceType.get$Spotted$MessageKey(), voiceType.get$There$MessageKey()), ChatType.CHAT, player.getUUID()));
         }
     }
 
