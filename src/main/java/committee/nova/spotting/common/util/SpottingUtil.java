@@ -9,6 +9,7 @@ import committee.nova.spotting.common.network.msg.CapabilitySyncMsg;
 import committee.nova.spotting.common.voice.api.IVoiceType;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.network.play.server.SChatPacket;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.util.Hand;
 import net.minecraft.util.SoundCategory;
@@ -57,8 +58,10 @@ public class SpottingUtil {
         if (traced.get() != null) {
             final MinecraftServer server = player.getServer();
             if (server == null) return;
-            server.getPlayerList().func_232641_a_(getSpottingMsg(player.getDisplayName(), traced.get(), hit.get(),
-                    voiceType.get$Spotted$MessageKey(), voiceType.get$There$MessageKey()), ChatType.CHAT, player.getUniqueID());
+            server.getPlayerList().getPlayers().stream()
+                    .filter(p -> p.world.getDimensionKey().equals(player.world.getDimensionKey()))
+                    .forEach(p -> p.connection.sendPacket(new SChatPacket(getSpottingMsg(player.getDisplayName(), traced.get(), hit.get(),
+                            voiceType.get$Spotted$MessageKey(), voiceType.get$There$MessageKey()), ChatType.CHAT, player.getUniqueID())));
         }
     }
 
