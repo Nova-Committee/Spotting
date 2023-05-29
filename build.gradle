@@ -5,7 +5,7 @@ plugins {
 }
 
 group = 'committee.nova.spotting.forge'
-version = '1.2.0'
+version = '1.2.1'
 
 java {
     archivesBaseName = 'Spotting-Forge-1.16.5'
