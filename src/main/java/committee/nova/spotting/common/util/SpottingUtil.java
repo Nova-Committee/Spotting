@@ -68,7 +68,8 @@ public class SpottingUtil {
                         .setStyle(Style.EMPTY.setFormatting(TextFormatting.YELLOW))
                         .modifyStyle(s -> {
                             if (hit == null) return s;
-                            return s.setHoverEvent(new HoverEvent(HoverEvent.Action.SHOW_TEXT, new StringTextComponent("[" + hit.getCoordinatesAsString() + "]")));
+                            return s.setHoverEvent(new HoverEvent(HoverEvent.Action.SHOW_TEXT,
+                                    new StringTextComponent("[" + hit.getX() + ", " + hit.getY() + ", " + hit.getZ() + "]")));
                         }), traced));
     }
 
