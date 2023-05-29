@@ -31,7 +31,7 @@ public class ForgeEventHandler {
     @SubscribeEvent
     public static void onTick(LivingEvent.LivingUpdateEvent event) {
         final LivingEntity living = event.getEntityLiving();
-        if (living.world.getGameTime() % 20 != living.getEntityId() % 20) return;
+        if (living.world.isRemote || living.world.getGameTime() % 20 != living.getEntityId() % 20) return;
         SpottingUtil.syncSpottingStatus(living);
     }
 
