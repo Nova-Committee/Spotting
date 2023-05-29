@@ -1,7 +1,7 @@
 package committee.nova.spotting;
 
 import committee.nova.spotting.client.config.ClientConfig;
-import committee.nova.spotting.client.config.screen.ClientConfigScreen;
+import committee.nova.spotting.client.util.ClientLoadUtil;
 import committee.nova.spotting.common.config.CommonConfig;
 import committee.nova.spotting.common.network.init.NetworkHandler;
 import committee.nova.spotting.common.sound.init.Sound;
@@ -30,6 +30,6 @@ public class Spotting {
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, CommonConfig.CONFIG);
         ModLoadingContext.get().registerConfig(ModConfig.Type.CLIENT, ClientConfig.CONFIG);
         DistExecutor.unsafeRunWhenOn(Dist.CLIENT, () -> () -> ModLoadingContext.get().registerExtensionPoint(ExtensionPoint.CONFIGGUIFACTORY,
-                () -> (mc, s) -> new ClientConfigScreen(s)));
+                ClientLoadUtil.getCfgScreenSupplier()));
     }
 }

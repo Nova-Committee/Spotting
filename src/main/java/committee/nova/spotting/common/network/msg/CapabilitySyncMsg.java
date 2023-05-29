@@ -1,6 +1,6 @@
 package committee.nova.spotting.common.network.msg;
 
-import committee.nova.spotting.client.util.ClientPacketUtil;
+import committee.nova.spotting.client.util.ClientLoadUtil;
 import net.minecraft.network.PacketBuffer;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.fml.DistExecutor;
@@ -33,7 +33,7 @@ public class CapabilitySyncMsg {
 
     public void handler(Supplier<NetworkEvent.Context> ctxSupplier) {
         final NetworkEvent.Context ctx = ctxSupplier.get();
-        ctx.enqueueWork(() -> DistExecutor.unsafeRunWhenOn(Dist.CLIENT, () -> ClientPacketUtil.handleCapabilitySyncMsg(id, highlight, cd)));
+        ctx.enqueueWork(() -> DistExecutor.unsafeRunWhenOn(Dist.CLIENT, () -> ClientLoadUtil.handleCapabilitySyncMsg(id, highlight, cd)));
         ctx.setPacketHandled(true);
     }
 }
