@@ -28,6 +28,7 @@ public class RaytraceUtil {
         final Vector3d look = viewer.getLook(1.0F);
         final Vector3d max = position.add(look.x * reachDistance, look.y * reachDistance, look.z * reachDistance);
         final AxisAlignedBB searchBox = viewer.getBoundingBox().expand(look.scale(reachDistance)).expand(1.0D, 1.0D, 1.0D);
+        // Entity#canBeCollidedWith seemed to be a wrong translation, changed to Entity#isPickable in newer versions
         final EntityRayTraceResult result = ProjectileHelper.rayTraceEntities(viewer, position, max,
                 searchBox, entity -> !entity.isSpectator() && entity.canBeCollidedWith(), reachDistance * reachDistance);
         if (result == null) return Optional.empty();
