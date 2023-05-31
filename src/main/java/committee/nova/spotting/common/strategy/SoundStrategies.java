@@ -5,6 +5,7 @@ import committee.nova.spotting.common.sound.init.Sound;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.ambient.Bat;
 import net.minecraft.world.entity.animal.*;
+import net.minecraft.world.entity.animal.axolotl.Axolotl;
 import net.minecraft.world.entity.animal.goat.Goat;
 import net.minecraft.world.entity.animal.horse.*;
 import net.minecraft.world.entity.boss.enderdragon.EnderDragon;
@@ -19,6 +20,7 @@ import net.minecraft.world.entity.player.Player;
 
 public class SoundStrategies {
     public static void init() {
+        qr(Axolotl.class, Sound.AXOLOTL);
         qr(Bat.class, Sound.BAT);
         qr(Bee.class, Sound.BEE);
         qr(Blaze.class, Sound.BLAZE);
