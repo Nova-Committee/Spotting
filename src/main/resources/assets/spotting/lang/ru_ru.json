@@ -1,0 +1,16 @@
+{
+  "category.spotting": "Обнаружение",
+  "msg.spotting.cfg.refreshed": "[Обнаружение]Сохраненная внутренняя версия не соответствует текущей версии, и файл конфигурации был обновлен. Обычно это происходит во время первой установки или нового обновленного моде.",
+  "msg.spotting.spotted": "%1$s %2$s!",
+  "msg.spotting.spotted.f": "%1$s %2$s!",
+  "msg.spotting.spotted.m": "%1$s %2$s!",
+  "msg.spotting.there": "Там!",
+  "msg.spotting.there.f": "Там!",
+  "msg.spotting.there.m": "Там!",
+  "key.spotting.spotting": "Обнаружить",
+  "screen.spotting.cfg.option.none": "Без звука",
+  "screen.spotting.cfg.option.female": "Женский голос (Встроенный)",
+  "screen.spotting.cfg.option.male": "Мужской голос (Встроенный)",
+  "screen.spotting.cfg.selection.voice_type": "Тип голоса",
+  "screen.spotting.cfg.title": "Обнаружение Настройки"
+}

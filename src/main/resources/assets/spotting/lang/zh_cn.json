@@ -1,0 +1,16 @@
+{
+  "category.spotting": "索敌",
+  "msg.spotting.cfg.refreshed": "[索敌]内部版本记录与实际值不匹配，配置文件已刷新。这种情况一般会在您第一次安装或刚刚更新过本模组时发生。",
+  "msg.spotting.spotted": "%1$s%2$s！",
+  "msg.spotting.spotted.f": "%1$s%2$s！",
+  "msg.spotting.spotted.m": "%1$s%2$s！",
+  "msg.spotting.there": "那里有",
+  "msg.spotting.there.f": "那里有",
+  "msg.spotting.there.m": "那里有",
+  "key.spotting.spotting": "索敌",
+  "screen.spotting.cfg.option.none": "无声",
+  "screen.spotting.cfg.option.female": "女声（内置）",
+  "screen.spotting.cfg.option.male": "男声（内置）",
+  "screen.spotting.cfg.selection.voice_type": "语音类型",
+  "screen.spotting.cfg.title": "索敌 设置"
+}
