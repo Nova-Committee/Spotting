@@ -1,5 +1,5 @@
 {
   "key.spotting.spotting": "発見する",
   "msg.spotting.cfg.refreshed": "[発見する]内部バージョンレコードが実際の値と一致せず、設定ファイルがリフレッシュされた。 これは通常、MODが初めてインストールされたときや、アップデートされたばかりのときに発生します。",
-  "v_msg.default.spotting": "%s 発見！"
+  "v_msg.vocalized.default.spotting": "%s 発見！"
 }
