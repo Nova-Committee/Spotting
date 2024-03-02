@@ -28,7 +28,7 @@ public class SpottingVoiceMessage implements IVoiceMessage {
     }
 
     @Override
-    public Optional<Component> getText(IVoiceType type) {
+    public Optional<Component> getText(IVoiceType type, Object... arg) {
         String key = String.format("v_msg.%s.%s.%s", type.getIdentifier().getNamespace(), type.getIdentifier().getPath(), Spotting.MODID);
         if (I18n.exists(key)) {
             return Optional.of(Component.translatable(
