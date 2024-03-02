@@ -40,13 +40,11 @@ public class SpottingUtil {
             player.swing(InteractionHand.MAIN_HAND, true);
             player.getCapability(SpottingCapability.SPOTTER).ifPresent(p -> p.setSpottingCd(pre.getSpottingCd()));
             SpottingManager.getMessageIdForSpotted(spottee)
-                    .ifPresent(msg -> {
-                        VocalizedServerManager.sendVoiceMsg(
-                                player,
-                                msg,
-                                VoiceContexts.dim(VoiceEffect.NONE)
-                        );
-                    });
+                    .ifPresent(msg -> VocalizedServerManager.sendVoiceMsg(
+                            player,
+                            msg,
+                            VoiceContexts.dim(VoiceEffect.NONE)
+                    ));
             MinecraftForge.EVENT_BUS.post(new SpottingEvent.Post(player, spottee));
             syncSpottingStatus(spottee);
         });
