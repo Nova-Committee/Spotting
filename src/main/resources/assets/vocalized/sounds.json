@@ -1,0 +1,1922 @@
+{
+  "matthew.spotting.minecraft.allay": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/matthew/allay",
+        "stream": true
+      }
+    ]
+  },
+  "matthew.spotting.minecraft.axolotl": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/matthew/axolotl",
+        "stream": true
+      }
+    ]
+  },
+  "matthew.spotting.minecraft.bat": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/matthew/bat",
+        "stream": true
+      }
+    ]
+  },
+  "matthew.spotting.minecraft.bee": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/matthew/bee",
+        "stream": true
+      }
+    ]
+  },
+  "matthew.spotting.minecraft.blaze": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/matthew/blaze",
+        "stream": true
+      }
+    ]
+  },
+  "matthew.spotting.minecraft.camel": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/matthew/camel",
+        "stream": true
+      }
+    ]
+  },
+  "matthew.spotting.minecraft.cat": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/matthew/cat",
+        "stream": true
+      }
+    ]
+  },
+  "matthew.spotting.minecraft.cave_spider": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/matthew/cave_spider",
+        "stream": true
+      }
+    ]
+  },
+  "matthew.spotting.minecraft.charged_creeper": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/matthew/charged_creeper",
+        "stream": true
+      }
+    ]
+  },
+  "matthew.spotting.minecraft.chicken": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/matthew/chicken",
+        "stream": true
+      }
+    ]
+  },
+  "matthew.spotting.minecraft.chicken_jockey": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/matthew/chicken_jockey",
+        "stream": true
+      }
+    ]
+  },
+  "matthew.spotting.minecraft.cod": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/matthew/cod",
+        "stream": true
+      }
+    ]
+  },
+  "matthew.spotting.minecraft.cow": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/matthew/cow",
+        "stream": true
+      }
+    ]
+  },
+  "matthew.spotting.minecraft.creeper": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/matthew/creeper",
+        "stream": true
+      }
+    ]
+  },
+  "matthew.spotting.minecraft.dolphin": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/matthew/dolphin",
+        "stream": true
+      }
+    ]
+  },
+  "matthew.spotting.minecraft.donkey": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/matthew/donkey",
+        "stream": true
+      }
+    ]
+  },
+  "matthew.spotting.minecraft.drowned": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/matthew/drowned",
+        "stream": true
+      }
+    ]
+  },
+  "matthew.spotting.minecraft.elder_guardian": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/matthew/elder_guardian",
+        "stream": true
+      }
+    ]
+  },
+  "matthew.spotting.minecraft.ender_dragon": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/matthew/ender_dragon",
+        "stream": true
+      }
+    ]
+  },
+  "matthew.spotting.minecraft.enderman": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/matthew/enderman",
+        "stream": true
+      }
+    ]
+  },
+  "matthew.spotting.minecraft.endermite": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/matthew/endermite",
+        "stream": true
+      }
+    ]
+  },
+  "matthew.spotting.minecraft.evoker": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/matthew/evoker",
+        "stream": true
+      }
+    ]
+  },
+  "matthew.spotting.minecraft.fish": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/matthew/fish",
+        "stream": true
+      }
+    ]
+  },
+  "matthew.spotting.minecraft.fox": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/matthew/fox",
+        "stream": true
+      }
+    ]
+  },
+  "matthew.spotting.minecraft.frog": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/matthew/frog",
+        "stream": true
+      }
+    ]
+  },
+  "matthew.spotting.minecraft.ghast": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/matthew/ghast",
+        "stream": true
+      }
+    ]
+  },
+  "matthew.spotting.minecraft.giant": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/matthew/giant",
+        "stream": true
+      }
+    ]
+  },
+  "matthew.spotting.minecraft.goat": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/matthew/goat",
+        "stream": true
+      }
+    ]
+  },
+  "matthew.spotting.minecraft.guardian": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/matthew/guardian",
+        "stream": true
+      }
+    ]
+  },
+  "matthew.spotting.minecraft.hoglin": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/matthew/hoglin",
+        "stream": true
+      }
+    ]
+  },
+  "matthew.spotting.minecraft.horse": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/matthew/horse",
+        "stream": true
+      }
+    ]
+  },
+  "matthew.spotting.minecraft.husk": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/matthew/husk",
+        "stream": true
+      }
+    ]
+  },
+  "matthew.spotting.minecraft.illusioner": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/matthew/illusioner",
+        "stream": true
+      }
+    ]
+  },
+  "matthew.spotting.minecraft.iron_golem": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/matthew/iron_golem",
+        "stream": true
+      }
+    ]
+  },
+  "matthew.spotting.minecraft.llama": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/matthew/llama",
+        "stream": true
+      }
+    ]
+  },
+  "matthew.spotting.minecraft.magma_cube": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/matthew/magma_cube",
+        "stream": true
+      }
+    ]
+  },
+  "matthew.spotting.minecraft.mooshroom": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/matthew/mooshroom",
+        "stream": true
+      }
+    ]
+  },
+  "matthew.spotting.minecraft.mule": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/matthew/mule",
+        "stream": true
+      }
+    ]
+  },
+  "matthew.spotting.minecraft.ocelot": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/matthew/ocelot",
+        "stream": true
+      }
+    ]
+  },
+  "matthew.spotting.minecraft.panda": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/matthew/panda",
+        "stream": true
+      }
+    ]
+  },
+  "matthew.spotting.minecraft.parrot": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/matthew/parrot",
+        "stream": true
+      }
+    ]
+  },
+  "matthew.spotting.minecraft.phantom": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/matthew/phantom",
+        "stream": true
+      }
+    ]
+  },
+  "matthew.spotting.minecraft.pig": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/matthew/pig",
+        "stream": true
+      }
+    ]
+  },
+  "matthew.spotting.minecraft.piglin": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/matthew/piglin",
+        "stream": true
+      }
+    ]
+  },
+  "matthew.spotting.minecraft.piglin_brute": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/matthew/piglin_brute",
+        "stream": true
+      }
+    ]
+  },
+  "matthew.spotting.minecraft.pillager": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/matthew/pillager",
+        "stream": true
+      }
+    ]
+  },
+  "matthew.spotting.minecraft.player": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/matthew/player",
+        "stream": true
+      }
+    ]
+  },
+  "matthew.spotting.minecraft.polar_bear": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/matthew/polar_bear",
+        "stream": true
+      }
+    ]
+  },
+  "matthew.spotting.minecraft.pufferfish": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/matthew/pufferfish",
+        "stream": true
+      }
+    ]
+  },
+  "matthew.spotting.minecraft.rabbit": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/matthew/rabbit",
+        "stream": true
+      }
+    ]
+  },
+  "matthew.spotting.minecraft.ravager": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/matthew/ravager",
+        "stream": true
+      }
+    ]
+  },
+  "matthew.spotting.minecraft.salmon": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/matthew/salmon",
+        "stream": true
+      }
+    ]
+  },
+  "matthew.spotting.minecraft.sheep": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/matthew/sheep",
+        "stream": true
+      }
+    ]
+  },
+  "matthew.spotting.minecraft.shulker": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/matthew/shulker",
+        "stream": true
+      }
+    ]
+  },
+  "matthew.spotting.minecraft.silverfish": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/matthew/silverfish",
+        "stream": true
+      }
+    ]
+  },
+  "matthew.spotting.minecraft.skeleton": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/matthew/skeleton",
+        "stream": true
+      }
+    ]
+  },
+  "matthew.spotting.minecraft.skeleton_horse": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/matthew/skeleton_horse",
+        "stream": true
+      }
+    ]
+  },
+  "matthew.spotting.minecraft.slime": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/matthew/slime",
+        "stream": true
+      }
+    ]
+  },
+  "matthew.spotting.minecraft.snow_golem": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/matthew/snow_golem",
+        "stream": true
+      }
+    ]
+  },
+  "matthew.spotting.minecraft.spider": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/matthew/spider",
+        "stream": true
+      }
+    ]
+  },
+  "matthew.spotting.minecraft.squid": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/matthew/squid",
+        "stream": true
+      }
+    ]
+  },
+  "matthew.spotting.minecraft.stray": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/matthew/stray",
+        "stream": true
+      }
+    ]
+  },
+  "matthew.spotting.minecraft.strider": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/matthew/strider",
+        "stream": true
+      }
+    ]
+  },
+  "matthew.spotting.minecraft.tadpole": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/matthew/tadpole",
+        "stream": true
+      }
+    ]
+  },
+  "matthew.spotting.minecraft.tropical_fish": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/matthew/tropical_fish",
+        "stream": true
+      }
+    ]
+  },
+  "matthew.spotting.minecraft.turtle": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/matthew/turtle",
+        "stream": true
+      }
+    ]
+  },
+  "matthew.spotting.minecraft.vex": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/matthew/vex",
+        "stream": true
+      }
+    ]
+  },
+  "matthew.spotting.minecraft.villager": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/matthew/villager",
+        "stream": true
+      }
+    ]
+  },
+  "matthew.spotting.minecraft.vindicator": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/matthew/vindicator",
+        "stream": true
+      }
+    ]
+  },
+  "matthew.spotting.minecraft.wandering_trader": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/matthew/wandering_trader",
+        "stream": true
+      }
+    ]
+  },
+  "matthew.spotting.minecraft.warden": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/matthew/warden",
+        "stream": true
+      }
+    ]
+  },
+  "matthew.spotting.minecraft.witch": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/matthew/witch",
+        "stream": true
+      }
+    ]
+  },
+  "matthew.spotting.minecraft.wither": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/matthew/wither",
+        "stream": true
+      }
+    ]
+  },
+  "matthew.spotting.minecraft.wither_skeleton": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/matthew/wither_skeleton",
+        "stream": true
+      }
+    ]
+  },
+  "matthew.spotting.minecraft.wolf": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/matthew/wolf",
+        "stream": true
+      }
+    ]
+  },
+  "matthew.spotting.minecraft.zoglin": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/matthew/zoglin",
+        "stream": true
+      }
+    ]
+  },
+  "matthew.spotting.minecraft.zombie": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/matthew/zombie",
+        "stream": true
+      }
+    ]
+  },
+  "matthew.spotting.minecraft.zombie_horse": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/matthew/zombie_horse",
+        "stream": true
+      }
+    ]
+  },
+  "matthew.spotting.minecraft.zombie_villager": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/matthew/zombie_villager",
+        "stream": true
+      }
+    ]
+  },
+  "matthew.spotting.minecraft.zombified_piglin": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/matthew/zombified_piglin",
+        "stream": true
+      }
+    ]
+  },
+  "salli.spotting.minecraft.allay": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/salli/allay",
+        "stream": true
+      }
+    ]
+  },
+  "salli.spotting.minecraft.axolotl": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/salli/axolotl",
+        "stream": true
+      }
+    ]
+  },
+  "salli.spotting.minecraft.bat": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/salli/bat",
+        "stream": true
+      }
+    ]
+  },
+  "salli.spotting.minecraft.bee": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/salli/bee",
+        "stream": true
+      }
+    ]
+  },
+  "salli.spotting.minecraft.blaze": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/salli/blaze",
+        "stream": true
+      }
+    ]
+  },
+  "salli.spotting.minecraft.camel": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/salli/camel",
+        "stream": true
+      }
+    ]
+  },
+  "salli.spotting.minecraft.cat": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/salli/cat",
+        "stream": true
+      }
+    ]
+  },
+  "salli.spotting.minecraft.cave_spider": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/salli/cave_spider",
+        "stream": true
+      }
+    ]
+  },
+  "salli.spotting.minecraft.charged_creeper": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/salli/charged_creeper",
+        "stream": true
+      }
+    ]
+  },
+  "salli.spotting.minecraft.chicken": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/salli/chicken",
+        "stream": true
+      }
+    ]
+  },
+  "salli.spotting.minecraft.chicken_jockey": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/salli/chicken_jockey",
+        "stream": true
+      }
+    ]
+  },
+  "salli.spotting.minecraft.cod": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/salli/cod",
+        "stream": true
+      }
+    ]
+  },
+  "salli.spotting.minecraft.cow": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/salli/cow",
+        "stream": true
+      }
+    ]
+  },
+  "salli.spotting.minecraft.creeper": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/salli/creeper",
+        "stream": true
+      }
+    ]
+  },
+  "salli.spotting.minecraft.dolphin": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/salli/dolphin",
+        "stream": true
+      }
+    ]
+  },
+  "salli.spotting.minecraft.donkey": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/salli/donkey",
+        "stream": true
+      }
+    ]
+  },
+  "salli.spotting.minecraft.drowned": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/salli/drowned",
+        "stream": true
+      }
+    ]
+  },
+  "salli.spotting.minecraft.elder_guardian": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/salli/elder_guardian",
+        "stream": true
+      }
+    ]
+  },
+  "salli.spotting.minecraft.ender_dragon": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/salli/ender_dragon",
+        "stream": true
+      }
+    ]
+  },
+  "salli.spotting.minecraft.enderman": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/salli/enderman",
+        "stream": true
+      }
+    ]
+  },
+  "salli.spotting.minecraft.endermite": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/salli/endermite",
+        "stream": true
+      }
+    ]
+  },
+  "salli.spotting.minecraft.evoker": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/salli/evoker",
+        "stream": true
+      }
+    ]
+  },
+  "salli.spotting.minecraft.fish": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/salli/fish",
+        "stream": true
+      }
+    ]
+  },
+  "salli.spotting.minecraft.fox": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/salli/fox",
+        "stream": true
+      }
+    ]
+  },
+  "salli.spotting.minecraft.frog": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/salli/frog",
+        "stream": true
+      }
+    ]
+  },
+  "salli.spotting.minecraft.ghast": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/salli/ghast",
+        "stream": true
+      }
+    ]
+  },
+  "salli.spotting.minecraft.giant": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/salli/giant",
+        "stream": true
+      }
+    ]
+  },
+  "salli.spotting.minecraft.goat": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/salli/goat",
+        "stream": true
+      }
+    ]
+  },
+  "salli.spotting.minecraft.guardian": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/salli/guardian",
+        "stream": true
+      }
+    ]
+  },
+  "salli.spotting.minecraft.hoglin": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/salli/hoglin",
+        "stream": true
+      }
+    ]
+  },
+  "salli.spotting.minecraft.horse": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/salli/horse",
+        "stream": true
+      }
+    ]
+  },
+  "salli.spotting.minecraft.husk": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/salli/husk",
+        "stream": true
+      }
+    ]
+  },
+  "salli.spotting.minecraft.illusioner": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/salli/illusioner",
+        "stream": true
+      }
+    ]
+  },
+  "salli.spotting.minecraft.iron_golem": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/salli/iron_golem",
+        "stream": true
+      }
+    ]
+  },
+  "salli.spotting.minecraft.llama": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/salli/llama",
+        "stream": true
+      }
+    ]
+  },
+  "salli.spotting.minecraft.magma_cube": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/salli/magma_cube",
+        "stream": true
+      }
+    ]
+  },
+  "salli.spotting.minecraft.mooshroom": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/salli/mooshroom",
+        "stream": true
+      }
+    ]
+  },
+  "salli.spotting.minecraft.mule": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/salli/mule",
+        "stream": true
+      }
+    ]
+  },
+  "salli.spotting.minecraft.ocelot": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/salli/ocelot",
+        "stream": true
+      }
+    ]
+  },
+  "salli.spotting.minecraft.panda": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/salli/panda",
+        "stream": true
+      }
+    ]
+  },
+  "salli.spotting.minecraft.parrot": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/salli/parrot",
+        "stream": true
+      }
+    ]
+  },
+  "salli.spotting.minecraft.phantom": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/salli/phantom",
+        "stream": true
+      }
+    ]
+  },
+  "salli.spotting.minecraft.pig": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/salli/pig",
+        "stream": true
+      }
+    ]
+  },
+  "salli.spotting.minecraft.piglin": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/salli/piglin",
+        "stream": true
+      }
+    ]
+  },
+  "salli.spotting.minecraft.piglin_brute": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/salli/piglin_brute",
+        "stream": true
+      }
+    ]
+  },
+  "salli.spotting.minecraft.pillager": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/salli/pillager",
+        "stream": true
+      }
+    ]
+  },
+  "salli.spotting.minecraft.player": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/salli/player",
+        "stream": true
+      }
+    ]
+  },
+  "salli.spotting.minecraft.polar_bear": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/salli/polar_bear",
+        "stream": true
+      }
+    ]
+  },
+  "salli.spotting.minecraft.pufferfish": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/salli/pufferfish",
+        "stream": true
+      }
+    ]
+  },
+  "salli.spotting.minecraft.rabbit": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/salli/rabbit",
+        "stream": true
+      }
+    ]
+  },
+  "salli.spotting.minecraft.ravager": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/salli/ravager",
+        "stream": true
+      }
+    ]
+  },
+  "salli.spotting.minecraft.salmon": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/salli/salmon",
+        "stream": true
+      }
+    ]
+  },
+  "salli.spotting.minecraft.sheep": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/salli/sheep",
+        "stream": true
+      }
+    ]
+  },
+  "salli.spotting.minecraft.shulker": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/salli/shulker",
+        "stream": true
+      }
+    ]
+  },
+  "salli.spotting.minecraft.silverfish": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/salli/silverfish",
+        "stream": true
+      }
+    ]
+  },
+  "salli.spotting.minecraft.skeleton": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/salli/skeleton",
+        "stream": true
+      }
+    ]
+  },
+  "salli.spotting.minecraft.skeleton_horse": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/salli/skeleton_horse",
+        "stream": true
+      }
+    ]
+  },
+  "salli.spotting.minecraft.slime": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/salli/slime",
+        "stream": true
+      }
+    ]
+  },
+  "salli.spotting.minecraft.snow_golem": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/salli/snow_golem",
+        "stream": true
+      }
+    ]
+  },
+  "salli.spotting.minecraft.spider": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/salli/spider",
+        "stream": true
+      }
+    ]
+  },
+  "salli.spotting.minecraft.squid": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/salli/squid",
+        "stream": true
+      }
+    ]
+  },
+  "salli.spotting.minecraft.stray": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/salli/stray",
+        "stream": true
+      }
+    ]
+  },
+  "salli.spotting.minecraft.strider": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/salli/strider",
+        "stream": true
+      }
+    ]
+  },
+  "salli.spotting.minecraft.tadpole": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/salli/tadpole",
+        "stream": true
+      }
+    ]
+  },
+  "salli.spotting.minecraft.tropicalish": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/salli/tropical_fish",
+        "stream": true
+      }
+    ]
+  },
+  "salli.spotting.minecraft.turtle": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/salli/turtle",
+        "stream": true
+      }
+    ]
+  },
+  "salli.spotting.minecraft.vex": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/salli/vex",
+        "stream": true
+      }
+    ]
+  },
+  "salli.spotting.minecraft.villager": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/salli/villager",
+        "stream": true
+      }
+    ]
+  },
+  "salli.spotting.minecraft.vindicator": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/salli/vindicator",
+        "stream": true
+      }
+    ]
+  },
+  "salli.spotting.minecraft.wandering_trader": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/salli/wandering_trader",
+        "stream": true
+      }
+    ]
+  },
+  "salli.spotting.minecraft.warden": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/salli/warden",
+        "stream": true
+      }
+    ]
+  },
+  "salli.spotting.minecraft.witch": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/salli/witch",
+        "stream": true
+      }
+    ]
+  },
+  "salli.spotting.minecraft.wither": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/salli/wither",
+        "stream": true
+      }
+    ]
+  },
+  "salli.spotting.minecraft.wither_skeleton": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/salli/wither_skeleton",
+        "stream": true
+      }
+    ]
+  },
+  "salli.spotting.minecraft.wolf": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/salli/wolf",
+        "stream": true
+      }
+    ]
+  },
+  "salli.spotting.minecraft.zoglin": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/salli/zoglin",
+        "stream": true
+      }
+    ]
+  },
+  "salli.spotting.minecraft.zombie": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/salli/zombie",
+        "stream": true
+      }
+    ]
+  },
+  "salli.spotting.minecraft.zombie_horse": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/salli/zombie_horse",
+        "stream": true
+      }
+    ]
+  },
+  "salli.spotting.minecraft.zombie_villager": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/salli/zombie_villager",
+        "stream": true
+      }
+    ]
+  },
+  "salli.spotting.minecraft.zombified_piglin": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/salli/zombified_piglin",
+        "stream": true
+      }
+    ]
+  },
+  "zhi_yu.spotting.minecraft.allay": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/zhi_yu/allay",
+        "stream": true
+      }
+    ]
+  },
+  "zhi_yu.spotting.minecraft.axolotl": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/zhi_yu/axolotl",
+        "stream": true
+      }
+    ]
+  },
+  "zhi_yu.spotting.minecraft.bat": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/zhi_yu/bat",
+        "stream": true
+      }
+    ]
+  },
+  "zhi_yu.spotting.minecraft.bee": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/zhi_yu/bee",
+        "stream": true
+      }
+    ]
+  },
+  "zhi_yu.spotting.minecraft.blaze": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/zhi_yu/blaze",
+        "stream": true
+      }
+    ]
+  },
+  "zhi_yu.spotting.minecraft.camel": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/zhi_yu/camel",
+        "stream": true
+      }
+    ]
+  },
+  "zhi_yu.spotting.minecraft.cat": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/zhi_yu/cat",
+        "stream": true
+      }
+    ]
+  },
+  "zhi_yu.spotting.minecraft.cave_spider": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/zhi_yu/cave_spider",
+        "stream": true
+      }
+    ]
+  },
+  "zhi_yu.spotting.minecraft.charged_creeper": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/zhi_yu/charged_creeper",
+        "stream": true
+      }
+    ]
+  },
+  "zhi_yu.spotting.minecraft.chicken": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/zhi_yu/chicken",
+        "stream": true
+      }
+    ]
+  },
+  "zhi_yu.spotting.minecraft.chicken_jockey": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/zhi_yu/chicken_jockey",
+        "stream": true
+      }
+    ]
+  },
+  "zhi_yu.spotting.minecraft.cod": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/zhi_yu/cod",
+        "stream": true
+      }
+    ]
+  },
+  "zhi_yu.spotting.minecraft.cow": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/zhi_yu/cow",
+        "stream": true
+      }
+    ]
+  },
+  "zhi_yu.spotting.minecraft.creeper": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/zhi_yu/creeper",
+        "stream": true
+      }
+    ]
+  },
+  "zhi_yu.spotting.minecraft.dolphin": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/zhi_yu/dolphin",
+        "stream": true
+      }
+    ]
+  },
+  "zhi_yu.spotting.minecraft.donkey": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/zhi_yu/donkey",
+        "stream": true
+      }
+    ]
+  },
+  "zhi_yu.spotting.minecraft.drowned": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/zhi_yu/drowned",
+        "stream": true
+      }
+    ]
+  },
+  "zhi_yu.spotting.minecraft.elder_guardian": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/zhi_yu/elder_guardian",
+        "stream": true
+      }
+    ]
+  },
+  "zhi_yu.spotting.minecraft.ender_dragon": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/zhi_yu/ender_dragon",
+        "stream": true
+      }
+    ]
+  },
+  "zhi_yu.spotting.minecraft.enderman": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/zhi_yu/enderman",
+        "stream": true
+      }
+    ]
+  },
+  "zhi_yu.spotting.minecraft.endermite": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/zhi_yu/endermite",
+        "stream": true
+      }
+    ]
+  },
+  "zhi_yu.spotting.minecraft.evoker": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/zhi_yu/evoker",
+        "stream": true
+      }
+    ]
+  },
+  "zhi_yu.spotting.minecraft.fish": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/zhi_yu/fish",
+        "stream": true
+      }
+    ]
+  },
+  "zhi_yu.spotting.minecraft.fox": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/zhi_yu/fox",
+        "stream": true
+      }
+    ]
+  },
+  "zhi_yu.spotting.minecraft.frog": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/zhi_yu/frog",
+        "stream": true
+      }
+    ]
+  },
+  "zhi_yu.spotting.minecraft.ghast": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/zhi_yu/ghast",
+        "stream": true
+      }
+    ]
+  },
+  "zhi_yu.spotting.minecraft.giant": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/zhi_yu/giant",
+        "stream": true
+      }
+    ]
+  },
+  "zhi_yu.spotting.minecraft.goat": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/zhi_yu/goat",
+        "stream": true
+      }
+    ]
+  },
+  "zhi_yu.spotting.minecraft.guardian": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/zhi_yu/guardian",
+        "stream": true
+      }
+    ]
+  },
+  "zhi_yu.spotting.minecraft.hoglin": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/zhi_yu/hoglin",
+        "stream": true
+      }
+    ]
+  },
+  "zhi_yu.spotting.minecraft.horse": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/zhi_yu/horse",
+        "stream": true
+      }
+    ]
+  },
+  "zhi_yu.spotting.minecraft.husk": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/zhi_yu/husk",
+        "stream": true
+      }
+    ]
+  },
+  "zhi_yu.spotting.minecraft.illusioner": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/zhi_yu/illusioner",
+        "stream": true
+      }
+    ]
+  },
+  "zhi_yu.spotting.minecraft.iron_golem": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/zhi_yu/iron_golem",
+        "stream": true
+      }
+    ]
+  },
+  "zhi_yu.spotting.minecraft.llama": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/zhi_yu/llama",
+        "stream": true
+      }
+    ]
+  },
+  "zhi_yu.spotting.minecraft.magma_cube": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/zhi_yu/magma_cube",
+        "stream": true
+      }
+    ]
+  },
+  "zhi_yu.spotting.minecraft.mooshroom": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/zhi_yu/mooshroom",
+        "stream": true
+      }
+    ]
+  },
+  "zhi_yu.spotting.minecraft.mule": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/zhi_yu/mule",
+        "stream": true
+      }
+    ]
+  },
+  "zhi_yu.spotting.minecraft.ocelot": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/zhi_yu/ocelot",
+        "stream": true
+      }
+    ]
+  },
+  "zhi_yu.spotting.minecraft.panda": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/zhi_yu/panda",
+        "stream": true
+      }
+    ]
+  },
+  "zhi_yu.spotting.minecraft.parrot": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/zhi_yu/parrot",
+        "stream": true
+      }
+    ]
+  },
+  "zhi_yu.spotting.minecraft.phantom": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/zhi_yu/phantom",
+        "stream": true
+      }
+    ]
+  },
+  "zhi_yu.spotting.minecraft.pig": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/zhi_yu/pig",
+        "stream": true
+      }
+    ]
+  },
+  "zhi_yu.spotting.minecraft.piglin": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/zhi_yu/piglin",
+        "stream": true
+      }
+    ]
+  },
+  "zhi_yu.spotting.minecraft.piglin_brute": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/zhi_yu/piglin_brute",
+        "stream": true
+      }
+    ]
+  },
+  "zhi_yu.spotting.minecraft.pillager": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/zhi_yu/pillager",
+        "stream": true
+      }
+    ]
+  },
+  "zhi_yu.spotting.minecraft.player": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/zhi_yu/player",
+        "stream": true
+      }
+    ]
+  },
+  "zhi_yu.spotting.minecraft.polar_bear": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/zhi_yu/polar_bear",
+        "stream": true
+      }
+    ]
+  },
+  "zhi_yu.spotting.minecraft.pufferfish": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/zhi_yu/pufferfish",
+        "stream": true
+      }
+    ]
+  },
+  "zhi_yu.spotting.minecraft.rabbit": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/zhi_yu/rabbit",
+        "stream": true
+      }
+    ]
+  },
+  "zhi_yu.spotting.minecraft.ravager": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/zhi_yu/ravager",
+        "stream": true
+      }
+    ]
+  },
+  "zhi_yu.spotting.minecraft.salmon": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/zhi_yu/salmon",
+        "stream": true
+      }
+    ]
+  },
+  "zhi_yu.spotting.minecraft.sheep": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/zhi_yu/sheep",
+        "stream": true
+      }
+    ]
+  },
+  "zhi_yu.spotting.minecraft.shulker": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/zhi_yu/shulker",
+        "stream": true
+      }
+    ]
+  },
+  "zhi_yu.spotting.minecraft.silverfish": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/zhi_yu/silverfish",
+        "stream": true
+      }
+    ]
+  },
+  "zhi_yu.spotting.minecraft.skeleton": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/zhi_yu/skeleton",
+        "stream": true
+      }
+    ]
+  },
+  "zhi_yu.spotting.minecraft.skeleton_horse": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/zhi_yu/skeleton_horse",
+        "stream": true
+      }
+    ]
+  },
+  "zhi_yu.spotting.minecraft.slime": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/zhi_yu/slime",
+        "stream": true
+      }
+    ]
+  },
+  "zhi_yu.spotting.minecraft.snow_golem": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/zhi_yu/snow_golem",
+        "stream": true
+      }
+    ]
+  },
+  "zhi_yu.spotting.minecraft.spider": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/zhi_yu/spider",
+        "stream": true
+      }
+    ]
+  },
+  "zhi_yu.spotting.minecraft.squid": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/zhi_yu/squid",
+        "stream": true
+      }
+    ]
+  },
+  "zhi_yu.spotting.minecraft.stray": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/zhi_yu/stray",
+        "stream": true
+      }
+    ]
+  },
+  "zhi_yu.spotting.minecraft.strider": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/zhi_yu/strider",
+        "stream": true
+      }
+    ]
+  },
+  "zhi_yu.spotting.minecraft.tadpole": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/zhi_yu/tadpole",
+        "stream": true
+      }
+    ]
+  },
+  "zhi_yu.spotting.minecraft.tropicalish": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/zhi_yu/tropical_fish",
+        "stream": true
+      }
+    ]
+  },
+  "zhi_yu.spotting.minecraft.turtle": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/zhi_yu/turtle",
+        "stream": true
+      }
+    ]
+  },
+  "zhi_yu.spotting.minecraft.vex": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/zhi_yu/vex",
+        "stream": true
+      }
+    ]
+  },
+  "zhi_yu.spotting.minecraft.villager": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/zhi_yu/villager",
+        "stream": true
+      }
+    ]
+  },
+  "zhi_yu.spotting.minecraft.vindicator": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/zhi_yu/vindicator",
+        "stream": true
+      }
+    ]
+  },
+  "zhi_yu.spotting.minecraft.wandering_trader": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/zhi_yu/wandering_trader",
+        "stream": true
+      }
+    ]
+  },
+  "zhi_yu.spotting.minecraft.warden": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/zhi_yu/warden",
+        "stream": true
+      }
+    ]
+  },
+  "zhi_yu.spotting.minecraft.witch": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/zhi_yu/witch",
+        "stream": true
+      }
+    ]
+  },
+  "zhi_yu.spotting.minecraft.wither": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/zhi_yu/wither",
+        "stream": true
+      }
+    ]
+  },
+  "zhi_yu.spotting.minecraft.wither_skeleton": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/zhi_yu/wither_skeleton",
+        "stream": true
+      }
+    ]
+  },
+  "zhi_yu.spotting.minecraft.wolf": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/zhi_yu/wolf",
+        "stream": true
+      }
+    ]
+  },
+  "zhi_yu.spotting.minecraft.zoglin": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/zhi_yu/zoglin",
+        "stream": true
+      }
+    ]
+  },
+  "zhi_yu.spotting.minecraft.zombie": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/zhi_yu/zombie",
+        "stream": true
+      }
+    ]
+  },
+  "zhi_yu.spotting.minecraft.zombie_horse": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/zhi_yu/zombie_horse",
+        "stream": true
+      }
+    ]
+  },
+  "zhi_yu.spotting.minecraft.zombie_villager": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/zhi_yu/zombie_villager",
+        "stream": true
+      }
+    ]
+  },
+  "zhi_yu.spotting.minecraft.zombified_piglin": {
+    "sounds": [
+      {
+        "name": "spotting:vocalized/zhi_yu/zombified_piglin",
+        "stream": true
+      }
+    ]
+  }
+}
