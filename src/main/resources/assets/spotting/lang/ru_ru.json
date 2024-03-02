@@ -1,5 +1,5 @@
 {
   "key.spotting.spotting": "Обнаружить",
   "msg.spotting.cfg.refreshed": "[Обнаружение]Сохраненная внутренняя версия не соответствует текущей версии, и файл конфигурации был обновлен. Обычно это происходит во время первой установки или нового обновленного моде.",
-  "v_msg.vocalized.default.spotting": "%s Там!"
+  "v_msg.vocalized.default.spotting.spotted": "%s Там!"
 }

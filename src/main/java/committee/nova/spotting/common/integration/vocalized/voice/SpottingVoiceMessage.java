@@ -29,14 +29,14 @@ public class SpottingVoiceMessage implements IVoiceMessage {
 
     @Override
     public Optional<Component> getText(IVoiceType type, Object... arg) {
-        String key = String.format("v_msg.vocalized.%s.%s.%s", type.getIdentifier().getNamespace(), type.getIdentifier().getPath(), Spotting.MODID);
+        String key = String.format("v_msg.vocalized.%s.%s.%s.%s", type.getIdentifier().getNamespace(), type.getIdentifier().getPath(), Spotting.MODID, "spotted");
         if (I18n.exists(key)) {
             return Optional.of(Component.translatable(
                     key,
                     entityName
             ));
         } else {
-            key = String.format("v_msg.vocalized.default.%s", this.getId().getNamespace());
+            key = String.format("v_msg.vocalized.default.%s.%s", Spotting.MODID, "spotted");
             return I18n.exists(key) ? Optional.of(Component.translatable(
                     key,
                     entityName

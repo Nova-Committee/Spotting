@@ -1,5 +1,5 @@
 {
   "key.spotting.spotting": "Spot",
   "msg.spotting.cfg.refreshed": "[Spotting]Die intern gespeicherte Version stimmt nicht mit der aktuellen Version überein und die Konfigurationsdatei wurde erneuert. Dies geschieht in der Regel, wenn Sie die Mod zum ersten Mal installieren oder gerade aktualisiert haben.",
-  "v_msg.vocalized.default.spotting": "Hier! %s!"
+  "v_msg.vocalized.default.spotting.spotted": "Hier! %s!"
 }

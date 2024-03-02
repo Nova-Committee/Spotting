@@ -1,5 +1,5 @@
 {
   "key.spotting.spotting": "Spot",
   "msg.spotting.cfg.refreshed": "[Spotting]The internal version record does not match the actual value and the configuration file has been refreshed. This typically happens when you first install or have just updated this mod.",
-  "v_msg.vocalized.default.spotting": "%s over there!"
+  "v_msg.vocalized.default.spotting.spotted": "%s over there!"
 }

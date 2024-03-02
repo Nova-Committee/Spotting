@@ -1,5 +1,5 @@
 {
   "key.spotting.spotting": "Repérez",
   "msg.spotting.cfg.refreshed": "[Repérage]La version enregistrée en interne ne correspond pas à la version actuelle et le fichier de configuration a été renouvelé. Cela se produit généralement lorsque vous installez le mod pour la première fois ou que vous venez de le mettre à jour.cally happens when you first install or have just updated this mod.",
-  "v_msg.vocalized.default.spotting": "Attention! %s!"
+  "v_msg.vocalized.default.spotting.spotted": "Attention! %s!"
 }

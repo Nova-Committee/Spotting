@@ -1,5 +1,5 @@
 {
   "key.spotting.spotting": "索敌",
   "msg.spotting.cfg.refreshed": "[索敌]内部版本记录与实际值不匹配，配置文件已刷新。这种情况一般会在您第一次安装或刚刚更新过本模组时发生。",
-  "v_msg.vocalized.default.spotting": "%s在那里！"
+  "v_msg.vocalized.default.spotting.spotted": "%s在那里！"
 }
