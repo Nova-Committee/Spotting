@@ -9,6 +9,7 @@ import committee.nova.spotting.common.network.msg.CapabilitySyncMsg;
 import committee.nova.vocalized.common.manager.VocalizedServerManager;
 import committee.nova.vocalized.common.voice.VoiceContexts;
 import committee.nova.vocalized.common.voice.VoiceEffect;
+import net.minecraft.ChatFormatting;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.entity.Entity;
@@ -43,7 +44,8 @@ public class SpottingUtil {
                     .ifPresent(msg -> VocalizedServerManager.sendVoiceMsg(
                             player,
                             msg,
-                            VoiceContexts.dim(VoiceEffect.NONE)
+                            VoiceContexts.dim(VoiceEffect.NONE),
+                            spottee.getName().copy().withStyle(ChatFormatting.YELLOW)
                     ));
             MinecraftForge.EVENT_BUS.post(new SpottingEvent.Post(player, spottee));
             syncSpottingStatus(spottee);
